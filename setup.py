@@ -23,8 +23,9 @@ from setuptools.command.build_ext import build_ext
 
 class PrebuiltExtension(Extension):
     def __init__(self, name, lib_dir=''):
-        super().__init__(name, sources=[])  # No sources to compile
-        self.lib_dir = os.path.abspath(lib_dir)
+        base = os.path.abspath(os.path.dirname(__file__))
+        super().__init__(name, sources=[])
+        self.lib_dir = os.path.join(base, lib_dir)
 
 
 class CustomBuildExt(build_ext):
@@ -66,7 +67,7 @@ class CustomBuildExt(build_ext):
 
 setup(
     name='pyorbbecsdk',
-    version='1.3.1',
+    version='1.3.4',
     author='Joe Dong',
     author_email='mocun@orbbec.com',
     description='pyorbbecsdk is a python wrapper for the OrbbecSDK',

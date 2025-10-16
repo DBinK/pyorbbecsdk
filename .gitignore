@@ -15,7 +15,7 @@ test.log/
 scripts/images/
 *.bag
 wheelhouse/
-.python-version
+# .python-version
 plot_output/
 *.csv
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,c++,python,jetbrains+all,ros,ros2

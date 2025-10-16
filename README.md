@@ -3,6 +3,54 @@
 This main branch provides Python bindings for the [Orbbec SDK v1.x](https://github.com/orbbec/OrbbecSDK), allowing developers to interface with Orbbec devices in Python.
 the OrbbecSDK_V2.x branch provides Python bindings for the [Orbbec SDK v2.x](https://github.com/orbbec/OrbbecSDK-dev),The differences between Orbbec SDK v2.x and Orbbec SDK v1.x can be found in the [README](https://github.com/orbbec/OrbbecSDK-dev).
 
+## Custom Build Modifications
+你现在的内容已经很好了，我帮你稍微整理成 **中英文对照、排版更清晰、GitHub 风格一致** 的版本，同时保留你新增的安装提示：
+
+---
+
+## Custom Build Modifications
+
+**自定义构建修改**
+
+This project includes several custom modifications to the build process by Clicko. Key modifications include:
+
+本项目包含了由 Clicko 对构建流程所做的若干自定义修改。主要修改包括：
+
+* Use `uv` to quickly synchronize dependencies.
+  使用 `uv` 快速同步依赖项。
+
+* Fix stubs files (`.pyi`) not included in built `.whl` packages, which prevented IDEs from providing auto-completion.
+  修复构建生成的 `.whl` 包中未包含 stubs 文件（`.pyi`）的问题，导致 IDE 无法自动补全。
+
+* Add a `build_whl.sh` script for building wheels quickly.
+  添加 `build_whl.sh` 脚本，用于快速构建 wheel 包。
+
+For detailed build script modifications, please refer to the [`build_whl.sh`](build_whl.sh) script.
+
+有关构建脚本修改的详细信息，请参阅 [`build_whl.sh`](build_whl.sh) 脚本。
+
+
+Before running the build script, you may need to install `uv` and the CMake build toolchain:
+
+运行脚本前，可能需要先安装 `uv` 和 CMake 构建工具链：
+
+```bash
+sudo apt update
+sudo apt install gcc cmake python3-dev -y
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+than you can run the build script:
+然后你可以运行构建脚本：
+
+```bash
+bash ./build_whl.sh
+```
+
+Modify the variable `PYTHON_VERSION` in the script to change the target build version
+修改脚本中的变量 `PYTHON_VERSION` 可更换目标构建版本
+
+
 ## Hardware Products Supported by Python SDK
 
 | **products list** | **firmware version**        |

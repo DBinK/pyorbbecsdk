@@ -42,7 +42,7 @@ class CustomBuildExt(build_ext):
             )
 
         extdir = os.path.abspath(os.path.dirname(self.get_ext_fullpath(ext.name)))
-        os.makedirs(extdir, exist_ok=True)  # Ensure the destination path exists
+        os.makedirs(extdir, exist_ok=True)
         self.copy_all_files(ext.lib_dir, extdir)
 
     def copy_all_files(self, source_dir, destination_dir):

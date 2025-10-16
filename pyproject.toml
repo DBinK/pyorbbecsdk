@@ -13,6 +13,7 @@ dependencies = [
     "plyfile>=1.1.2", # for saving point cloud
     "pybind11==2.11.0",
     "pybind11-global==2.11.0",
+    "pybind11-stubgen>=2.5.5",
     "pygame>=2.6.1", # for visualization
     "setuptools>=80.9.0",
     "wheel>=0.45.1",

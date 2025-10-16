@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# 可能你需要先安装 uv 和 cmake 构建工具链
+# sudo apt update
+# sudo apt install gcc cmake python3-dev -y 
+# curl -LsSf https://astral.sh/uv/install.sh | sh
+
 GREEN='\033[0;32m'  # Green color
 NC='\033[0m'        # No Color
 
@@ -39,6 +44,11 @@ make -j$NPROC
 make install
 
 cd ..  # 回到项目根目录
+
+# 生成 stubs
+log "正在生成 stubs, 有报错请忽略..."
+pybind11-stubgen pyorbbecsdk
+cp stubs/pyorbbecsdk.pyi install/lib
 
 # 删除旧 wheel
 rm -f dist/*.whl

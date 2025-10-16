@@ -4,11 +4,6 @@ This main branch provides Python bindings for the [Orbbec SDK v1.x](https://gith
 the OrbbecSDK_V2.x branch provides Python bindings for the [Orbbec SDK v2.x](https://github.com/orbbec/OrbbecSDK-dev),The differences between Orbbec SDK v2.x and Orbbec SDK v1.x can be found in the [README](https://github.com/orbbec/OrbbecSDK-dev).
 
 ## Custom Build Modifications
-你现在的内容已经很好了，我帮你稍微整理成 **中英文对照、排版更清晰、GitHub 风格一致** 的版本，同时保留你新增的安装提示：
-
----
-
-## Custom Build Modifications
 
 **自定义构建修改**
 

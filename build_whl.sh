@@ -4,7 +4,7 @@ GREEN='\033[0;32m'  # Green color
 NC='\033[0m'        # No Color
 
 log() {
-    echo -e "[INFO]${GREEN}$1${NC} "
+    echo -e "[INFO] ${GREEN}$1${NC} "
 }
 
 PYTHON_VERSION=3.10  # 目标 Python 版本 3.10 ~ 3.12 测试通过

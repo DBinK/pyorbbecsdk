@@ -35,6 +35,15 @@ include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/DetermineHostPlatform.cmake)
 
 set(ORBBEC_LIBS ${CMAKE_CURRENT_SOURCE_DIR}/sdk/lib/${HOST_PLATFORM})
 set(ORBBEC_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/sdk/include/)
+
+if (WIN32)
+  set(Python3_ROOT_DIR "${CMAKE_CURRENT_SOURCE_DIR}/.venv/Scripts")  # Python path from venv
+  set(pybind11_DIR "${CMAKE_CURRENT_SOURCE_DIR}/.venv/Scripts")  # Pybind11 path
+elseif (UNIX)
+  set(Python3_ROOT_DIR "${CMAKE_CURRENT_SOURCE_DIR}/.venv/bin")  # Python path from venv
+  set(pybind11_DIR "${CMAKE_CURRENT_SOURCE_DIR}/.venv/bin")  # Pybind11 path
+endif ()
+
 find_package(Python3 REQUIRED COMPONENTS Interpreter Development)
 find_package(pybind11 REQUIRED)
 link_directories(${ORBBEC_LIBS})

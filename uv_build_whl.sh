@@ -47,6 +47,7 @@ cd ..  # 回到项目根目录
 
 # 生成 stubs
 log "正在生成 stubs, 有报错请忽略..."
+uv pip install .
 pybind11-stubgen pyorbbecsdk
 cp stubs/pyorbbecsdk.pyi install/lib
 
@@ -63,6 +64,6 @@ uv pip install dist/*.whl --force-reinstall
 
 # 测试安装
 log "编译完成！生成的 .whl 文件保存在 dist/ 中"
-log "正在运行 uv run examples/enumerate.py 测试安装"
+log "正在运行 uv run examples/hello_orbbec.py 测试安装"
 
-uv run examples/quick_start.py
+uv run examples/hello_orbbec.py

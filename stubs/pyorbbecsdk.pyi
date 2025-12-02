@@ -4,7 +4,7 @@ OrbbecSDK python binding
 from __future__ import annotations
 import numpy
 import typing
-__all__ = ['AccelFrame', 'AccelStreamProfile', 'AlignFilter', 'CameraParamList', 'ColorFrame', 'Config', 'Context', 'DecimationFilter', 'DepthFrame', 'Device', 'DeviceInfo', 'DeviceList', 'DevicePresetList', 'DisparityTransform', 'Filter', 'FormatConvertFilter', 'Frame', 'FrameSet', 'GyroFrame', 'GyroStreamProfile', 'HDRMergeFilter', 'HoleFillingFilter', 'IRFrame', 'NoiseRemovalFilter', 'OBAccelFullScaleRange', 'OBAccelIntrinsic', 'OBAccelValue', 'OBAlignMode', 'OBBaselineCalibrationParam', 'OBCalibrationParam', 'OBCameraDistortion', 'OBCameraDistortionModel', 'OBCameraIntrinsic', 'OBCameraParam', 'OBCmdVersion', 'OBColorPoint', 'OBCommunicationType', 'OBCompressionMode', 'OBCompressionParams', 'OBConvertFormat', 'OBCoordinateSystemType', 'OBDCPowerState', 'OBDDONoiseRemovalType', 'OBDataTranState', 'OBDepthCroppingMode', 'OBDepthPrecisionLevel', 'OBDepthWorkMode', 'OBDepthWorkModeList', 'OBDeviceDevelopmentMode', 'OBDeviceIpAddrConfig', 'OBDeviceSyncConfig', 'OBDeviceTemperature', 'OBDeviceTimestampResetConfig', 'OBDeviceType', 'OBEdgeNoiseRemovalFilterParams', 'OBEdgeNoiseRemovalType', 'OBError', 'OBException', 'OBExtrinsic', 'OBFileTranState', 'OBFilterList', 'OBFloatPropertyRange', 'OBFormat', 'OBFrameAggregateOutputMode', 'OBFrameMetadataType', 'OBFrameType', 'OBGyroFullScaleRange', 'OBGyroIntrinsic', 'OBGyroSampleRate', 'OBHdrConfig', 'OBHoleFillingMode', 'OBIntPropertyRange', 'OBLogLevel', 'OBMediaState', 'OBMediaType', 'OBMultiDeviceSyncConfig', 'OBMultiDeviceSyncMode', 'OBNoiseRemovalFilterParams', 'OBPermissionType', 'OBPoint2f', 'OBPoint3f', 'OBPowerLineFreqMode', 'OBPropertyID', 'OBPropertyItem', 'OBPropertyType', 'OBProtocolVersion', 'OBRect', 'OBRegionOfInterest', 'OBRotateDegreeType', 'OBSensorType', 'OBSequenceIdItem', 'OBSpatialAdvancedFilterParams', 'OBStatus', 'OBStreamType', 'OBSyncMode', 'OBTofExposureThresholdControl', 'OBTofFilterRange', 'OBUSBPowerState', 'OBUint16PropertyRange', 'OBUint8PropertyRange', 'OBUpgradeState', 'Pipeline', 'PointCloudFilter', 'PointsFrame', 'Sensor', 'SensorList', 'SequenceIdFilter', 'SpatialAdvancedFilter', 'StreamProfile', 'StreamProfileList', 'TemporalFilter', 'ThresholdFilter', 'VideoFrame', 'VideoStreamProfile', 'get_version', 'transformation2dto2d', 'transformation2dto3d', 'transformation3dto2d', 'transformation3dto3d']
+__all__: list[str] = ['AccelFrame', 'AccelStreamProfile', 'AlignFilter', 'CameraParamList', 'ColorFrame', 'Config', 'Context', 'DecimationFilter', 'DepthFrame', 'Device', 'DeviceInfo', 'DeviceList', 'DevicePresetList', 'DisparityTransform', 'Filter', 'FormatConvertFilter', 'Frame', 'FrameSet', 'GyroFrame', 'GyroStreamProfile', 'HDRMergeFilter', 'HoleFillingFilter', 'IRFrame', 'NoiseRemovalFilter', 'OBAccelFullScaleRange', 'OBAccelIntrinsic', 'OBAccelValue', 'OBAlignMode', 'OBBaselineCalibrationParam', 'OBCalibrationParam', 'OBCameraDistortion', 'OBCameraDistortionModel', 'OBCameraIntrinsic', 'OBCameraParam', 'OBCmdVersion', 'OBColorPoint', 'OBCommunicationType', 'OBCompressionMode', 'OBCompressionParams', 'OBConvertFormat', 'OBCoordinateSystemType', 'OBDCPowerState', 'OBDDONoiseRemovalType', 'OBDataTranState', 'OBDepthCroppingMode', 'OBDepthPrecisionLevel', 'OBDepthWorkMode', 'OBDepthWorkModeList', 'OBDepthWorkModeTag', 'OBDeviceDevelopmentMode', 'OBDeviceIpAddrConfig', 'OBDeviceSyncConfig', 'OBDeviceTemperature', 'OBDeviceTimestampResetConfig', 'OBDeviceType', 'OBEdgeNoiseRemovalFilterParams', 'OBEdgeNoiseRemovalType', 'OBError', 'OBException', 'OBExtrinsic', 'OBFileTranState', 'OBFilterList', 'OBFloatPropertyRange', 'OBFormat', 'OBFrameAggregateOutputMode', 'OBFrameMetadataType', 'OBFrameType', 'OBGyroFullScaleRange', 'OBGyroIntrinsic', 'OBGyroSampleRate', 'OBHdrConfig', 'OBHoleFillingMode', 'OBIntPropertyRange', 'OBLogLevel', 'OBMediaState', 'OBMediaType', 'OBMultiDeviceSyncConfig', 'OBMultiDeviceSyncMode', 'OBNoiseRemovalFilterParams', 'OBPermissionType', 'OBPoint2f', 'OBPoint3f', 'OBPowerLineFreqMode', 'OBPropertyID', 'OBPropertyItem', 'OBPropertyType', 'OBProtocolVersion', 'OBRect', 'OBRegionOfInterest', 'OBRotateDegreeType', 'OBSensorType', 'OBSequenceIdItem', 'OBSpatialAdvancedFilterParams', 'OBStatus', 'OBStreamType', 'OBSyncMode', 'OBTofExposureThresholdControl', 'OBTofFilterRange', 'OBUSBPowerState', 'OBUint16PropertyRange', 'OBUint8PropertyRange', 'OBUpgradeState', 'Paused', 'Pipeline', 'PlaybackDevice', 'PlaybackStatus', 'Playing', 'PointCloudFilter', 'PointsFrame', 'RecordDevice', 'Sensor', 'SensorList', 'SequenceIdFilter', 'SpatialAdvancedFilter', 'Stopped', 'StreamProfile', 'StreamProfileList', 'TemporalFilter', 'ThresholdFilter', 'VideoFrame', 'VideoStreamProfile', 'get_version', 'save_point_cloud_to_ply', 'transformation2dto2d', 'transformation2dto3d', 'transformation3dto2d', 'transformation3dto3d']
 class AccelFrame(Frame):
     def __repr__(self) -> None:
         ...
@@ -74,10 +74,10 @@ class Config:
     def enable_stream(self, arg0: OBSensorType) -> None:
         ...
     @typing.overload
-    def enable_video_stream(self, stream_type: OBStreamType, width: int = 0, height: int = 0, fps: int = 30, format: OBFormat = ...) -> None:
+    def enable_video_stream(self, stream_type: OBStreamType, width: int = 0, height: int = 0, fps: int = 0, format: OBFormat = ...) -> None:
         ...
     @typing.overload
-    def enable_video_stream(self, sensor_type: OBSensorType, width: int = 0, height: int = 0, fps: int = 30, format: OBFormat = ...) -> None:
+    def enable_video_stream(self, sensor_type: OBSensorType, width: int = 0, height: int = 0, fps: int = 0, format: OBFormat = ...) -> None:
         ...
     def set_align_mode(self, arg0: OBAlignMode) -> None:
         ...
@@ -115,8 +115,10 @@ class Context:
         """
     def enable_net_device_enumeration(self, arg0: bool) -> None:
         ...
-    def ob_force_ip_config(self, arg0: str, arg1: OBDeviceIpAddrConfig) ->bool:
-        ...
+    def ob_force_ip_config(self, arg0: str, arg1: OBDeviceIpAddrConfig) -> bool:
+        """
+        Change the IP configuration
+        """
     def query_devices(self) -> ...:
         """
         Query devices
@@ -140,6 +142,8 @@ class DepthFrame(VideoFrame):
 class Device:
     __hash__: typing.ClassVar[None] = None
     def __eq__(self, arg0: Device) -> bool:
+        ...
+    def enable_heart_beat(self, arg0: bool) -> None:
         ...
     def export_settings_as_preset_json_file(self, arg0: str) -> None:
         ...
@@ -185,7 +189,11 @@ class Device:
         ...
     def get_timestamp_reset_config(self) -> OBDeviceTimestampResetConfig:
         ...
+    def isFrameInterleaveSupported(self) -> bool:
+        ...
     def is_property_supported(self, arg0: OBPropertyID, arg1: OBPermissionType) -> bool:
+        ...
+    def loadFrameInterleave(self, arg0: str) -> None:
         ...
     def load_depth_filter_config(self, arg0: str) -> None:
         ...
@@ -196,8 +204,6 @@ class Device:
     def load_preset_from_json_file(self, arg0: str) -> None:
         ...
     def reboot(self) -> None:
-        ...
-    def enable_heart_beat(self, arg0: bool) -> None:
         ...
     def set_bool_property(self, arg0: OBPropertyID, arg1: bool) -> None:
         ...
@@ -213,9 +219,9 @@ class Device:
         ...
     def set_hdr_config(self, arg0: OBHdrConfig) -> None:
         ...
-    def set_ip_config(self, arg0: OBDeviceIpAddrConfig) -> None:
-        ...
     def set_int_property(self, arg0: OBPropertyID, arg1: int) -> None:
+        ...
+    def set_ip_config(self, arg0: OBDeviceIpAddrConfig) -> None:
         ...
     def set_multi_device_sync_config(self, arg0: OBMultiDeviceSyncConfig) -> None:
         ...
@@ -229,9 +235,7 @@ class Device:
         ...
     def update_firmware(self, file_path: str, callback: typing.Callable, async_update: bool = True) -> None:
         ...
-    def isFrameInterleaveSupported(self) -> bool:
-        ...
-    def loadFrameInterleave(self, arg0: str) -> None:
+    def update_optional_depth_presets(self, file_path_list: list, callback: typing.Callable) -> None:
         ...
 class DeviceInfo:
     def __repr__(self) -> str:
@@ -239,6 +243,18 @@ class DeviceInfo:
     def get_connection_type(self) -> str:
         """
         Get the connection type of the device
+        """
+    def get_device_gateway(self) -> str:
+        """
+        Get device gateway
+        """
+    def get_device_ip_address(self) -> str:
+        """
+        Get device ip address
+        """
+    def get_device_subnet_mask(self) -> str:
+        """
+        Get device subnet mask
         """
     def get_device_type(self) -> OBDeviceType:
         """
@@ -276,18 +292,6 @@ class DeviceInfo:
         """
         Get device vid
         """
-    def get_device_ip_address(self) -> str:
-        """
-        Get device ip address
-        """
-    def get_device_subnet_mask(self) -> str:
-        """
-        Get device subnet mask
-        """
-    def get_device_gateway(self) -> str:
-        """
-        Get device gateway
-        """
 class DeviceList:
     def __getitem__(self, arg0: int) -> ...:
         ...
@@ -301,32 +305,40 @@ class DeviceList:
         ...
     def get_device_by_uid(self, arg0: str) -> ...:
         ...
+    def get_device_connection_type_by_index(self, arg0: int) -> str:
+        ...
+    def get_device_gateway_by_index(self, arg0: int) -> str:
+        ...
+    def get_device_ip_address_by_index(self, arg0: int) -> str:
+        ...
     def get_device_name_by_index(self, arg0: int) -> str:
         ...
     def get_device_pid_by_index(self, arg0: int) -> int:
         ...
     def get_device_serial_number_by_index(self, arg0: int) -> str:
         ...
+    def get_device_subnet_mask_by_index(self, arg0: int) -> str:
+        ...
     def get_device_uid_by_index(self, arg0: int) -> str:
         ...
     def get_device_vid_by_index(self, arg0: int) -> int:
         ...
-    def get_device_connection_type_by_index(self, arg0: int) -> str:
-        ...
-    def get_device_ip_address_by_index(self, arg0: int) -> str:
-        ...
-    def get_device_subnet_mask_by_index(self, arg0: int) -> str:
-        ...
-    def get_device_gateway_by_index(self, arg0: int) -> str:
-        ...
-    def get_local_mac_address(self, arg0: int) -> str:
-        ...
-    def get_local_ip(self, arg0: int) -> str:
-        ...
-    def get_local_subnet_length(self, arg0: int) -> int:
-        ...
     def get_local_gateway(self, arg0: int) -> str:
-        ...
+        """
+        Get the host gateway for the specified device
+        """
+    def get_local_ip(self, arg0: int) -> str:
+        """
+        Get the host Ip address for the specified device
+        """
+    def get_local_mac_address(self, arg0: int) -> str:
+        """
+        Get the host Mac address for the specified device
+        """
+    def get_local_subnet_length(self, arg0: int) -> int:
+        """
+        Get the host subnet length for the specified device
+        """
 class DevicePresetList:
     def __contains__(self, arg0: str) -> bool:
         ...
@@ -1179,6 +1191,7 @@ class OBDepthWorkMode:
     __hash__: typing.ClassVar[None] = None
     checksum: numpy.ndarray[numpy.uint8]
     name: str
+    tag: OBDepthWorkModeTag
     def __eq__(self, arg0: OBDepthWorkMode) -> bool:
         ...
     def __init__(self) -> None:
@@ -1198,6 +1211,43 @@ class OBDepthWorkModeList:
         """
         Get the OBDepthWorkMode object at the specified index
         """
+class OBDepthWorkModeTag:
+    """
+    Members:
+    
+      OB_DEVICE_DEPTH_WORK_MODE
+    
+      OB_CUSTOM_DEPTH_WORK_MODE
+    """
+    OB_CUSTOM_DEPTH_WORK_MODE: typing.ClassVar[OBDepthWorkModeTag]  # value = <OBDepthWorkModeTag.OB_CUSTOM_DEPTH_WORK_MODE: 1>
+    OB_DEVICE_DEPTH_WORK_MODE: typing.ClassVar[OBDepthWorkModeTag]  # value = <OBDepthWorkModeTag.OB_DEVICE_DEPTH_WORK_MODE: 0>
+    __members__: typing.ClassVar[dict[str, OBDepthWorkModeTag]]  # value = {'OB_DEVICE_DEPTH_WORK_MODE': <OBDepthWorkModeTag.OB_DEVICE_DEPTH_WORK_MODE: 0>, 'OB_CUSTOM_DEPTH_WORK_MODE': <OBDepthWorkModeTag.OB_CUSTOM_DEPTH_WORK_MODE: 1>}
+    def __eq__(self, other: typing.Any) -> bool:
+        ...
+    def __getstate__(self) -> int:
+        ...
+    def __hash__(self) -> int:
+        ...
+    def __index__(self) -> int:
+        ...
+    def __init__(self, value: int) -> None:
+        ...
+    def __int__(self) -> int:
+        ...
+    def __ne__(self, other: typing.Any) -> bool:
+        ...
+    def __repr__(self) -> str:
+        ...
+    def __setstate__(self, state: int) -> None:
+        ...
+    def __str__(self) -> str:
+        ...
+    @property
+    def name(self) -> str:
+        ...
+    @property
+    def value(self) -> int:
+        ...
 class OBDeviceDevelopmentMode:
     """
     Members:
@@ -1642,11 +1692,14 @@ class OBFrameAggregateOutputMode:
       COLOR_FRAME_REQUIRE
     
       ANY_SITUATION
+    
+      DISABLE
     """
     ANY_SITUATION: typing.ClassVar[OBFrameAggregateOutputMode]  # value = <OBFrameAggregateOutputMode.ANY_SITUATION: 2>
     COLOR_FRAME_REQUIRE: typing.ClassVar[OBFrameAggregateOutputMode]  # value = <OBFrameAggregateOutputMode.COLOR_FRAME_REQUIRE: 1>
+    DISABLE: typing.ClassVar[OBFrameAggregateOutputMode]  # value = <OBFrameAggregateOutputMode.DISABLE: 3>
     FULL_FRAME_REQUIRE: typing.ClassVar[OBFrameAggregateOutputMode]  # value = <OBFrameAggregateOutputMode.FULL_FRAME_REQUIRE: 0>
-    __members__: typing.ClassVar[dict[str, OBFrameAggregateOutputMode]]  # value = {'FULL_FRAME_REQUIRE': <OBFrameAggregateOutputMode.FULL_FRAME_REQUIRE: 0>, 'COLOR_FRAME_REQUIRE': <OBFrameAggregateOutputMode.COLOR_FRAME_REQUIRE: 1>, 'ANY_SITUATION': <OBFrameAggregateOutputMode.ANY_SITUATION: 2>}
+    __members__: typing.ClassVar[dict[str, OBFrameAggregateOutputMode]]  # value = {'FULL_FRAME_REQUIRE': <OBFrameAggregateOutputMode.FULL_FRAME_REQUIRE: 0>, 'COLOR_FRAME_REQUIRE': <OBFrameAggregateOutputMode.COLOR_FRAME_REQUIRE: 1>, 'ANY_SITUATION': <OBFrameAggregateOutputMode.ANY_SITUATION: 2>, 'DISABLE': <OBFrameAggregateOutputMode.DISABLE: 3>}
     def __eq__(self, other: typing.Any) -> bool:
         ...
     def __getstate__(self) -> int:
@@ -1741,6 +1794,10 @@ class OBFrameMetadataType:
     
       GPIO_INPUT_DATA
     
+      DISPARITY_SEARCH_OFFSET
+    
+      DISPARITY_SEARCH_RANGE
+    
       COUNT
     """
     ACTUAL_FRAME_RATE: typing.ClassVar[OBFrameMetadataType]  # value = <OBFrameMetadataType.ACTUAL_FRAME_RATE: 18>
@@ -1753,7 +1810,9 @@ class OBFrameMetadataType:
     BACKLIGHT_COMPENSATION: typing.ClassVar[OBFrameMetadataType]  # value = <OBFrameMetadataType.BACKLIGHT_COMPENSATION: 12>
     BRIGHTNESS: typing.ClassVar[OBFrameMetadataType]  # value = <OBFrameMetadataType.BRIGHTNESS: 8>
     CONTRAST: typing.ClassVar[OBFrameMetadataType]  # value = <OBFrameMetadataType.CONTRAST: 9>
-    COUNT: typing.ClassVar[OBFrameMetadataType]  # value = <OBFrameMetadataType.COUNT: 32>
+    COUNT: typing.ClassVar[OBFrameMetadataType]  # value = <OBFrameMetadataType.COUNT: 34>
+    DISPARITY_SEARCH_OFFSET: typing.ClassVar[OBFrameMetadataType]  # value = <OBFrameMetadataType.DISPARITY_SEARCH_OFFSET: 32>
+    DISPARITY_SEARCH_RANGE: typing.ClassVar[OBFrameMetadataType]  # value = <OBFrameMetadataType.DISPARITY_SEARCH_RANGE: 33>
     EXPOSURE: typing.ClassVar[OBFrameMetadataType]  # value = <OBFrameMetadataType.EXPOSURE: 4>
     EXPOSURE_PRIORITY: typing.ClassVar[OBFrameMetadataType]  # value = <OBFrameMetadataType.EXPOSURE_PRIORITY: 24>
     FRAME_NUMBER: typing.ClassVar[OBFrameMetadataType]  # value = <OBFrameMetadataType.FRAME_NUMBER: 2>
@@ -1776,7 +1835,7 @@ class OBFrameMetadataType:
     SHARPNESS: typing.ClassVar[OBFrameMetadataType]  # value = <OBFrameMetadataType.SHARPNESS: 11>
     TIMESTAMP: typing.ClassVar[OBFrameMetadataType]  # value = <OBFrameMetadataType.TIMESTAMP: 0>
     WHITE_BALANCE: typing.ClassVar[OBFrameMetadataType]  # value = <OBFrameMetadataType.WHITE_BALANCE: 7>
-    __members__: typing.ClassVar[dict[str, OBFrameMetadataType]]  # value = {'TIMESTAMP': <OBFrameMetadataType.TIMESTAMP: 0>, 'SENSOR_TIMESTAMP': <OBFrameMetadataType.SENSOR_TIMESTAMP: 1>, 'FRAME_NUMBER': <OBFrameMetadataType.FRAME_NUMBER: 2>, 'AUTO_EXPOSURE': <OBFrameMetadataType.AUTO_EXPOSURE: 3>, 'EXPOSURE': <OBFrameMetadataType.EXPOSURE: 4>, 'GAIN': <OBFrameMetadataType.GAIN: 5>, 'AUTO_WHITE_BALANCE': <OBFrameMetadataType.AUTO_WHITE_BALANCE: 6>, 'WHITE_BALANCE': <OBFrameMetadataType.WHITE_BALANCE: 7>, 'BRIGHTNESS': <OBFrameMetadataType.BRIGHTNESS: 8>, 'CONTRAST': <OBFrameMetadataType.CONTRAST: 9>, 'SATURATION': <OBFrameMetadataType.SATURATION: 10>, 'SHARPNESS': <OBFrameMetadataType.SHARPNESS: 11>, 'BACKLIGHT_COMPENSATION': <OBFrameMetadataType.BACKLIGHT_COMPENSATION: 12>, 'HUE': <OBFrameMetadataType.HUE: 13>, 'GAMMA': <OBFrameMetadataType.GAMMA: 14>, 'POWER_LINE_FREQUENCY': <OBFrameMetadataType.POWER_LINE_FREQUENCY: 15>, 'LOW_LIGHT_COMPENSATION': <OBFrameMetadataType.LOW_LIGHT_COMPENSATION: 16>, 'MANUAL_WHITE_BALANCE': <OBFrameMetadataType.MANUAL_WHITE_BALANCE: 17>, 'ACTUAL_FRAME_RATE': <OBFrameMetadataType.ACTUAL_FRAME_RATE: 18>, 'FRAME_RATE': <OBFrameMetadataType.FRAME_RATE: 19>, 'AE_ROI_LEFT': <OBFrameMetadataType.AE_ROI_LEFT: 20>, 'AE_ROI_TOP': <OBFrameMetadataType.AE_ROI_TOP: 21>, 'AE_ROI_RIGHT': <OBFrameMetadataType.AE_ROI_RIGHT: 22>, 'AE_ROI_BOTTOM': <OBFrameMetadataType.AE_ROI_BOTTOM: 23>, 'EXPOSURE_PRIORITY': <OBFrameMetadataType.EXPOSURE_PRIORITY: 24>, 'HDR_SEQUENCE_NAME': <OBFrameMetadataType.HDR_SEQUENCE_NAME: 25>, 'HDR_SEQUENCE_SIZE': <OBFrameMetadataType.HDR_SEQUENCE_SIZE: 26>, 'HDR_SEQUENCE_INDEX': <OBFrameMetadataType.HDR_SEQUENCE_INDEX: 27>, 'LASER_POWER': <OBFrameMetadataType.LASER_POWER: 28>, 'LASER_POWER_LEVEL': <OBFrameMetadataType.LASER_POWER_LEVEL: 29>, 'LASER_STATUS': <OBFrameMetadataType.LASER_STATUS: 30>, 'GPIO_INPUT_DATA': <OBFrameMetadataType.GPIO_INPUT_DATA: 31>, 'COUNT': <OBFrameMetadataType.COUNT: 32>}
+    __members__: typing.ClassVar[dict[str, OBFrameMetadataType]]  # value = {'TIMESTAMP': <OBFrameMetadataType.TIMESTAMP: 0>, 'SENSOR_TIMESTAMP': <OBFrameMetadataType.SENSOR_TIMESTAMP: 1>, 'FRAME_NUMBER': <OBFrameMetadataType.FRAME_NUMBER: 2>, 'AUTO_EXPOSURE': <OBFrameMetadataType.AUTO_EXPOSURE: 3>, 'EXPOSURE': <OBFrameMetadataType.EXPOSURE: 4>, 'GAIN': <OBFrameMetadataType.GAIN: 5>, 'AUTO_WHITE_BALANCE': <OBFrameMetadataType.AUTO_WHITE_BALANCE: 6>, 'WHITE_BALANCE': <OBFrameMetadataType.WHITE_BALANCE: 7>, 'BRIGHTNESS': <OBFrameMetadataType.BRIGHTNESS: 8>, 'CONTRAST': <OBFrameMetadataType.CONTRAST: 9>, 'SATURATION': <OBFrameMetadataType.SATURATION: 10>, 'SHARPNESS': <OBFrameMetadataType.SHARPNESS: 11>, 'BACKLIGHT_COMPENSATION': <OBFrameMetadataType.BACKLIGHT_COMPENSATION: 12>, 'HUE': <OBFrameMetadataType.HUE: 13>, 'GAMMA': <OBFrameMetadataType.GAMMA: 14>, 'POWER_LINE_FREQUENCY': <OBFrameMetadataType.POWER_LINE_FREQUENCY: 15>, 'LOW_LIGHT_COMPENSATION': <OBFrameMetadataType.LOW_LIGHT_COMPENSATION: 16>, 'MANUAL_WHITE_BALANCE': <OBFrameMetadataType.MANUAL_WHITE_BALANCE: 17>, 'ACTUAL_FRAME_RATE': <OBFrameMetadataType.ACTUAL_FRAME_RATE: 18>, 'FRAME_RATE': <OBFrameMetadataType.FRAME_RATE: 19>, 'AE_ROI_LEFT': <OBFrameMetadataType.AE_ROI_LEFT: 20>, 'AE_ROI_TOP': <OBFrameMetadataType.AE_ROI_TOP: 21>, 'AE_ROI_RIGHT': <OBFrameMetadataType.AE_ROI_RIGHT: 22>, 'AE_ROI_BOTTOM': <OBFrameMetadataType.AE_ROI_BOTTOM: 23>, 'EXPOSURE_PRIORITY': <OBFrameMetadataType.EXPOSURE_PRIORITY: 24>, 'HDR_SEQUENCE_NAME': <OBFrameMetadataType.HDR_SEQUENCE_NAME: 25>, 'HDR_SEQUENCE_SIZE': <OBFrameMetadataType.HDR_SEQUENCE_SIZE: 26>, 'HDR_SEQUENCE_INDEX': <OBFrameMetadataType.HDR_SEQUENCE_INDEX: 27>, 'LASER_POWER': <OBFrameMetadataType.LASER_POWER: 28>, 'LASER_POWER_LEVEL': <OBFrameMetadataType.LASER_POWER_LEVEL: 29>, 'LASER_STATUS': <OBFrameMetadataType.LASER_STATUS: 30>, 'GPIO_INPUT_DATA': <OBFrameMetadataType.GPIO_INPUT_DATA: 31>, 'DISPARITY_SEARCH_OFFSET': <OBFrameMetadataType.DISPARITY_SEARCH_OFFSET: 32>, 'DISPARITY_SEARCH_RANGE': <OBFrameMetadataType.DISPARITY_SEARCH_RANGE: 33>, 'COUNT': <OBFrameMetadataType.COUNT: 34>}
     def __eq__(self, other: typing.Any) -> bool:
         ...
     def __getstate__(self) -> int:
@@ -2241,15 +2300,18 @@ class OBMultiDeviceSyncMode:
       SOFTWARE_TRIGGERING
     
       HARDWARE_TRIGGERING
+    
+      IR_IMU_SYNC
     """
     FREE_RUN: typing.ClassVar[OBMultiDeviceSyncMode]  # value = <OBMultiDeviceSyncMode.FREE_RUN: 1>
     HARDWARE_TRIGGERING: typing.ClassVar[OBMultiDeviceSyncMode]  # value = <OBMultiDeviceSyncMode.HARDWARE_TRIGGERING: 64>
+    IR_IMU_SYNC: typing.ClassVar[OBMultiDeviceSyncMode]  # value = <OBMultiDeviceSyncMode.IR_IMU_SYNC: 128>
     PRIMARY: typing.ClassVar[OBMultiDeviceSyncMode]  # value = <OBMultiDeviceSyncMode.PRIMARY: 4>
     SECONDARY: typing.ClassVar[OBMultiDeviceSyncMode]  # value = <OBMultiDeviceSyncMode.SECONDARY: 8>
     SECONDARY_SYNCED: typing.ClassVar[OBMultiDeviceSyncMode]  # value = <OBMultiDeviceSyncMode.SECONDARY_SYNCED: 16>
     SOFTWARE_TRIGGERING: typing.ClassVar[OBMultiDeviceSyncMode]  # value = <OBMultiDeviceSyncMode.SOFTWARE_TRIGGERING: 32>
     STANDALONE: typing.ClassVar[OBMultiDeviceSyncMode]  # value = <OBMultiDeviceSyncMode.STANDALONE: 2>
-    __members__: typing.ClassVar[dict[str, OBMultiDeviceSyncMode]]  # value = {'FREE_RUN': <OBMultiDeviceSyncMode.FREE_RUN: 1>, 'STANDALONE': <OBMultiDeviceSyncMode.STANDALONE: 2>, 'PRIMARY': <OBMultiDeviceSyncMode.PRIMARY: 4>, 'SECONDARY': <OBMultiDeviceSyncMode.SECONDARY: 8>, 'SECONDARY_SYNCED': <OBMultiDeviceSyncMode.SECONDARY_SYNCED: 16>, 'SOFTWARE_TRIGGERING': <OBMultiDeviceSyncMode.SOFTWARE_TRIGGERING: 32>, 'HARDWARE_TRIGGERING': <OBMultiDeviceSyncMode.HARDWARE_TRIGGERING: 64>}
+    __members__: typing.ClassVar[dict[str, OBMultiDeviceSyncMode]]  # value = {'FREE_RUN': <OBMultiDeviceSyncMode.FREE_RUN: 1>, 'STANDALONE': <OBMultiDeviceSyncMode.STANDALONE: 2>, 'PRIMARY': <OBMultiDeviceSyncMode.PRIMARY: 4>, 'SECONDARY': <OBMultiDeviceSyncMode.SECONDARY: 8>, 'SECONDARY_SYNCED': <OBMultiDeviceSyncMode.SECONDARY_SYNCED: 16>, 'SOFTWARE_TRIGGERING': <OBMultiDeviceSyncMode.SOFTWARE_TRIGGERING: 32>, 'HARDWARE_TRIGGERING': <OBMultiDeviceSyncMode.HARDWARE_TRIGGERING: 64>, 'IR_IMU_SYNC': <OBMultiDeviceSyncMode.IR_IMU_SYNC: 128>}
     def __eq__(self, other: typing.Any) -> bool:
         ...
     def __getstate__(self) -> int:
@@ -2427,9 +2489,13 @@ class OBPropertyID:
     
       OB_PROP_LDP_STATUS_BOOL : LDP status
     
-      OB_PROP_DEPTH_MAX_DIFF_INT & OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_MAX_DIFF_INT : soft filter max diff param
+      OB_PROP_DEPTH_MAX_DIFF_INT : soft filter max diff param
     
-      OB_PROP_DEPTH_MAX_SPECKLE_SIZE_INT & OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_MAX_SPECKLE_SIZE_INT : soft filter maxSpeckleSize
+      OB_PROP_DEPTH_MAX_SPECKLE_SIZE_INT : soft filter maxSpeckleSize
+    
+      OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_MAX_DIFF_INT : depth noise removal filter max diff param
+    
+      OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_MAX_SPECKLE_SIZE_INT : depth noise removal filter maxSpeckleSize
     
       OB_PROP_DEPTH_ALIGN_HARDWARE_BOOL : Hardware d2c is on
     
@@ -2557,6 +2623,14 @@ class OBPropertyID:
     
       OB_PROP_DISP_SEARCH_RANGE_MODE_INT : Disparity search range mode, 1: 128, 2: 256
     
+      OB_PROP_LASER_HIGH_TEMPERATURE_PROTECT_BOOL : Laser high temperature protection
+    
+      OB_PROP_LOW_EXPOSURE_LASER_CONTROL_BOOL : low exposure laser control
+    
+      OB_PROP_CHECK_PPS_SYNC_IN_SIGNAL_BOOL : check pps sync in signal
+    
+      OB_PROP_DISP_SEARCH_OFFSET_INT : Disparity search range offset, range: [0, 127]
+    
       OB_PROP_DEVICE_REPOWER_BOOL : Repower device (cut off power and power on again)
     
       OB_PROP_FRAME_INTERLEAVE_CONFIG_INDEX_INT : frame interleave config index
@@ -2564,6 +2638,14 @@ class OBPropertyID:
       OB_PROP_FRAME_INTERLEAVE_ENABLE_BOOL : frame interleave enable (true:enable,false:disable)
     
       OB_PROP_FRAME_INTERLEAVE_LASER_PATTERN_SYNC_DELAY_INT : laser pattern sync with delay(us)
+    
+      OB_PROP_ON_CHIP_CALIBRATION_HEALTH_CHECK_FLOAT : Get the health check result from device,range is [0.0f,1.5f]
+    
+      OB_PROP_ON_CHIP_CALIBRATION_ENABLE_BOOL : Enable or disable on-chip calibration
+    
+      OB_PROP_HW_NOISE_REMOVE_FILTER_ENABLE_BOOL : hardware noise remove filter switch
+    
+      OB_PROP_HW_NOISE_REMOVE_FILTER_THRESHOLD_FLOAT : hardware noise remove filter threshold ,range [0.0 - 1.0]
     
       OB_STRUCT_BASELINE_CALIBRATION_PARAM : Baseline calibration parameters
     
@@ -2594,6 +2676,8 @@ class OBPropertyID:
       OB_STRUCT_DEPTH_AE_ROI
     
       OB_STRUCT_ASIC_SERIAL_NUMBER
+    
+      OB_STRUCT_DISP_OFFSET_CONFIG : Disparity offset interleaving
     
       OB_PROP_COLOR_AUTO_EXPOSURE_BOOL
     
@@ -2659,6 +2743,8 @@ class OBPropertyID:
     
       OB_PROP_COLOR_FOCUS_INT
     
+      OB_PROP_IR_RECTIFY_BOOL
+    
       OB_PROP_SDK_DISPARITY_TO_DEPTH_BOOL
     
       OB_PROP_SDK_DEPTH_FRAME_UNPACK_BOOL
@@ -2676,15 +2762,18 @@ class OBPropertyID:
       OB_RAW_DATA_CAMERA_CALIB_JSON_FILE : Calibration JSON file read from device (Femto Mega, read only)
     
       OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_BOOL : depth noise removal filter
-      
+    
       OB_DEVICE_AUTO_CAPTURE_ENABLE_BOOL : soft trigger auto capture enable, use in OB_MULTI_DEVICE_SYNC_MODE_SOFTWARE_TRIGGERING mode
-      
+    
       OB_DEVICE_AUTO_CAPTURE_INTERVAL_TIME_INT : soft trigger auto capture interval time, use in OB_MULTI_DEVICE_SYNC_MODE_SOFTWARE_TRIGGERING mode
-      
+    
       OB_DEVICE_PTP_CLOCK_SYNC_ENABLE_BOOL : PTP time synchronization enable
-
+    
       OB_PROP_DEBUG_ESGM_CONFIDENCE_FLOAT : Confidence degree
     """
+    OB_DEVICE_AUTO_CAPTURE_ENABLE_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_DEVICE_AUTO_CAPTURE_ENABLE_BOOL: 216>
+    OB_DEVICE_AUTO_CAPTURE_INTERVAL_TIME_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_DEVICE_AUTO_CAPTURE_INTERVAL_TIME_INT: 217>
+    OB_DEVICE_PTP_CLOCK_SYNC_ENABLE_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_DEVICE_PTP_CLOCK_SYNC_ENABLE_BOOL: 223>
     OB_PROP_ANTI_COLLUSION_ACTIVATION_STATUS_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_ANTI_COLLUSION_ACTIVATION_STATUS_BOOL: 64>
     OB_PROP_BOOT_INTO_RECOVERY_MODE_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_BOOT_INTO_RECOVERY_MODE_BOOL: 132>
     OB_PROP_BRT_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_BRT_BOOL: 86>
@@ -2693,6 +2782,7 @@ class OBPropertyID:
     OB_PROP_CAPTURE_IMAGE_SIGNAL_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_CAPTURE_IMAGE_SIGNAL_BOOL: 107>
     OB_PROP_CAPTURE_IMAGE_TIME_INTERVAL_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_CAPTURE_IMAGE_TIME_INTERVAL_INT: 135>
     OB_PROP_CAPTURE_INTERVAL_MODE_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_CAPTURE_INTERVAL_MODE_INT: 134>
+    OB_PROP_CHECK_PPS_SYNC_IN_SIGNAL_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_CHECK_PPS_SYNC_IN_SIGNAL_BOOL: 195>
     OB_PROP_COLOR_AE_MAX_EXPOSURE_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_COLOR_AE_MAX_EXPOSURE_INT: 189>
     OB_PROP_COLOR_AUTO_EXPOSURE_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_COLOR_AUTO_EXPOSURE_BOOL: 2000>
     OB_PROP_COLOR_AUTO_EXPOSURE_PRIORITY_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_COLOR_AUTO_EXPOSURE_PRIORITY_INT: 2012>
@@ -2719,6 +2809,7 @@ class OBPropertyID:
     OB_PROP_COLOR_WHITE_BALANCE_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_COLOR_WHITE_BALANCE_INT: 2004>
     OB_PROP_D2C_PREPROCESS_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_D2C_PREPROCESS_BOOL: 91>
     OB_PROP_DC_POWER_STATE_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DC_POWER_STATE_INT: 122>
+    OB_PROP_DEBUG_ESGM_CONFIDENCE_FLOAT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DEBUG_ESGM_CONFIDENCE_FLOAT: 5013>
     OB_PROP_DEPTH_ALIGN_HARDWARE_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DEPTH_ALIGN_HARDWARE_BOOL: 42>
     OB_PROP_DEPTH_ALIGN_HARDWARE_MODE_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DEPTH_ALIGN_HARDWARE_MODE_INT: 63>
     OB_PROP_DEPTH_AUTO_EXPOSURE_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DEPTH_AUTO_EXPOSURE_BOOL: 2016>
@@ -2729,14 +2820,10 @@ class OBPropertyID:
     OB_PROP_DEPTH_HOLEFILTER_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DEPTH_HOLEFILTER_BOOL: 17>
     OB_PROP_DEPTH_MAX_DIFF_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DEPTH_MAX_DIFF_INT: 40>
     OB_PROP_DEPTH_MAX_SPECKLE_SIZE_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DEPTH_MAX_SPECKLE_SIZE_INT: 41>
-    OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_MAX_DIFF_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_MAX_DIFF_INT: 40>
-    OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_MAX_SPECKLE_SIZE_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_MAX_SPECKLE_SIZE_INT: 41>
     OB_PROP_DEPTH_MIRROR_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DEPTH_MIRROR_BOOL: 14>
     OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DEPTH_SOFT_FILTER_BOOL: 24>
-    OB_DEVICE_AUTO_CAPTURE_ENABLE_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_DEVICE_AUTO_CAPTURE_ENABLE_BOOL : 216>
-    OB_DEVICE_AUTO_CAPTURE_INTERVAL_TIME_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_DEVICE_AUTO_CAPTURE_ENABLE_BOOL :217>
-    OB_DEVICE_PTP_CLOCK_SYNC_ENABLE_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_DEVICE_PTP_CLOCK_SYNC_ENABLE_BOOL: 223>
-    OB_PROP_DEBUG_ESGM_CONFIDENCE_FLOAT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DEBUG_ESGM_CONFIDENCE_FLOAT: 5013>
+    OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_MAX_DIFF_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DEPTH_MAX_DIFF_INT: 40>
+    OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_MAX_SPECKLE_SIZE_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DEPTH_MAX_SPECKLE_SIZE_INT: 41>
     OB_PROP_DEPTH_POSTFILTER_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DEPTH_POSTFILTER_BOOL: 16>
     OB_PROP_DEPTH_PRECISION_LEVEL_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DEPTH_PRECISION_LEVEL_INT: 75>
     OB_PROP_DEPTH_RM_FILTER_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DEPTH_RM_FILTER_BOOL: 2029>
@@ -2751,6 +2838,7 @@ class OBPropertyID:
     OB_PROP_DEVICE_USB3_REPEAT_IDENTIFY_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DEVICE_USB3_REPEAT_IDENTIFY_BOOL: 141>
     OB_PROP_DEVICE_WORK_MODE_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DEVICE_WORK_MODE_INT: 95>
     OB_PROP_DISPARITY_TO_DEPTH_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DISPARITY_TO_DEPTH_BOOL: 85>
+    OB_PROP_DISP_SEARCH_OFFSET_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DISP_SEARCH_OFFSET_INT: 196>
     OB_PROP_DISP_SEARCH_RANGE_MODE_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_DISP_SEARCH_RANGE_MODE_INT: 191>
     OB_PROP_EXTERNAL_SIGNAL_RESET_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_EXTERNAL_SIGNAL_RESET_BOOL: 88>
     OB_PROP_FAN_WORK_MODE_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_FAN_WORK_MODE_INT: 62>
@@ -2762,6 +2850,8 @@ class OBPropertyID:
     OB_PROP_HARDWARE_DISTORTION_SWITCH_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_HARDWARE_DISTORTION_SWITCH_BOOL: 61>
     OB_PROP_HDR_MERGE_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_HDR_MERGE_BOOL: 2037>
     OB_PROP_HEARTBEAT_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_HEARTBEAT_BOOL: 89>
+    OB_PROP_HW_NOISE_REMOVE_FILTER_ENABLE_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_HW_NOISE_REMOVE_FILTER_ENABLE_BOOL: 211>
+    OB_PROP_HW_NOISE_REMOVE_FILTER_THRESHOLD_FLOAT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_HW_NOISE_REMOVE_FILTER_THRESHOLD_FLOAT: 212>
     OB_PROP_INDICATOR_LIGHT_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_INDICATOR_LIGHT_BOOL: 83>
     OB_PROP_IR_AE_MAX_EXPOSURE_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_IR_AE_MAX_EXPOSURE_INT: 190>
     OB_PROP_IR_AUTO_EXPOSURE_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_IR_AUTO_EXPOSURE_BOOL: 2025>
@@ -2772,6 +2862,7 @@ class OBPropertyID:
     OB_PROP_IR_GAIN_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_IR_GAIN_INT: 2027>
     OB_PROP_IR_LONG_EXPOSURE_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_IR_LONG_EXPOSURE_BOOL: 2035>
     OB_PROP_IR_MIRROR_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_IR_MIRROR_BOOL: 18>
+    OB_PROP_IR_RECTIFY_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_IR_RECTIFY_BOOL: 2040>
     OB_PROP_IR_RIGHT_FLIP_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_IR_RIGHT_FLIP_BOOL: 114>
     OB_PROP_IR_RIGHT_MIRROR_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_IR_RIGHT_MIRROR_BOOL: 112>
     OB_PROP_IR_RIGHT_ROTATE_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_IR_RIGHT_ROTATE_INT: 117>
@@ -2782,6 +2873,7 @@ class OBPropertyID:
     OB_PROP_LASER_CONTROL_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_LASER_CONTROL_INT: 182>
     OB_PROP_LASER_CURRENT_FLOAT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_LASER_CURRENT_FLOAT: 5>
     OB_PROP_LASER_ENERGY_LEVEL_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_LASER_POWER_LEVEL_CONTROL_INT: 99>
+    OB_PROP_LASER_HIGH_TEMPERATURE_PROTECT_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_LASER_HIGH_TEMPERATURE_PROTECT_BOOL: 193>
     OB_PROP_LASER_HW_ENERGY_LEVEL_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_LASER_HW_ENERGY_LEVEL_INT: 119>
     OB_PROP_LASER_MODE_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_LASER_MODE_INT: 79>
     OB_PROP_LASER_ON_OFF_PATTERN_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_LASER_ON_OFF_PATTERN_INT: 175>
@@ -2792,8 +2884,11 @@ class OBPropertyID:
     OB_PROP_LDP_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_LDP_BOOL: 2>
     OB_PROP_LDP_MEASURE_DISTANCE_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_LDP_MEASURE_DISTANCE_INT: 100>
     OB_PROP_LDP_STATUS_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_LDP_STATUS_BOOL: 32>
+    OB_PROP_LOW_EXPOSURE_LASER_CONTROL_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_LOW_EXPOSURE_LASER_CONTROL_BOOL: 194>
     OB_PROP_MAX_DEPTH_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_MAX_DEPTH_INT: 23>
     OB_PROP_MIN_DEPTH_INT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_MIN_DEPTH_INT: 22>
+    OB_PROP_ON_CHIP_CALIBRATION_ENABLE_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_ON_CHIP_CALIBRATION_ENABLE_BOOL: 210>
+    OB_PROP_ON_CHIP_CALIBRATION_HEALTH_CHECK_FLOAT: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_ON_CHIP_CALIBRATION_HEALTH_CHECK_FLOAT: 209>
     OB_PROP_RECTIFY2_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_RECTIFY2_BOOL: 80>
     OB_PROP_RESTORE_FACTORY_SETTINGS_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_RESTORE_FACTORY_SETTINGS_BOOL: 131>
     OB_PROP_RGB_CUSTOM_CROP_BOOL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_PROP_RGB_CUSTOM_CROP_BOOL: 94>
@@ -2829,10 +2924,11 @@ class OBPropertyID:
     OB_STRUCT_DEVICE_STATIC_IP_CONFIG_RECORD: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_STRUCT_DEVICE_STATIC_IP_CONFIG_RECORD: 1053>
     OB_STRUCT_DEVICE_TEMPERATURE: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_STRUCT_DEVICE_TEMPERATURE: 1003>
     OB_STRUCT_DEVICE_TIME: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_STRUCT_DEVICE_TIME: 1037>
+    OB_STRUCT_DISP_OFFSET_CONFIG: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_STRUCT_DISP_OFFSET_CONFIG: 1064>
     OB_STRUCT_MULTI_DEVICE_SYNC_CONFIG: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_STRUCT_MULTI_DEVICE_SYNC_CONFIG: 1038>
     OB_STRUCT_RGB_CROP_ROI: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_STRUCT_RGB_CROP_ROI: 1040>
     OB_STRUCT_TOF_EXPOSURE_THRESHOLD_CONTROL: typing.ClassVar[OBPropertyID]  # value = <OBPropertyID.OB_STRUCT_TOF_EXPOSURE_THRESHOLD_CONTROL: 1024>
-    __members__: typing.ClassVar[dict[str, OBPropertyID]]  # value = {'OB_PROP_LDP_BOOL': <OBPropertyID.OB_PROP_LDP_BOOL: 2>, 'OB_PROP_LASER_BOOL': <OBPropertyID.OB_PROP_LASER_BOOL: 3>, 'OB_PROP_LASER_PULSE_WIDTH_INT': <OBPropertyID.OB_PROP_LASER_PULSE_WIDTH_INT: 4>, 'OB_PROP_LASER_CURRENT_FLOAT': <OBPropertyID.OB_PROP_LASER_CURRENT_FLOAT: 5>, 'OB_PROP_FLOOD_BOOL': <OBPropertyID.OB_PROP_FLOOD_BOOL: 6>, 'OB_PROP_FLOOD_LEVEL_INT': <OBPropertyID.OB_PROP_FLOOD_LEVEL_INT: 7>, 'OB_PROP_DEPTH_MIRROR_BOOL': <OBPropertyID.OB_PROP_DEPTH_MIRROR_BOOL: 14>, 'OB_PROP_DEPTH_FLIP_BOOL': <OBPropertyID.OB_PROP_DEPTH_FLIP_BOOL: 15>, 'OB_PROP_DEPTH_POSTFILTER_BOOL': <OBPropertyID.OB_PROP_DEPTH_POSTFILTER_BOOL: 16>, 'OB_PROP_DEPTH_HOLEFILTER_BOOL': <OBPropertyID.OB_PROP_DEPTH_HOLEFILTER_BOOL: 17>, 'OB_PROP_IR_MIRROR_BOOL': <OBPropertyID.OB_PROP_IR_MIRROR_BOOL: 18>, 'OB_PROP_IR_FLIP_BOOL': <OBPropertyID.OB_PROP_IR_FLIP_BOOL: 19>, 'OB_PROP_MIN_DEPTH_INT': <OBPropertyID.OB_PROP_MIN_DEPTH_INT: 22>, 'OB_PROP_MAX_DEPTH_INT': <OBPropertyID.OB_PROP_MAX_DEPTH_INT: 23>, 'OB_PROP_DEPTH_SOFT_FILTER_BOOL': <OBPropertyID.OB_PROP_DEPTH_SOFT_FILTER_BOOL: 24>, 'OB_PROP_LDP_STATUS_BOOL': <OBPropertyID.OB_PROP_LDP_STATUS_BOOL: 32>, 'OB_PROP_DEPTH_MAX_DIFF_INT': <OBPropertyID.OB_PROP_DEPTH_MAX_DIFF_INT: 40>, 'OB_PROP_DEPTH_MAX_SPECKLE_SIZE_INT': <OBPropertyID.OB_PROP_DEPTH_MAX_SPECKLE_SIZE_INT: 41>, 'OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_MAX_DIFF_INT' : <OBPropertyID.OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_MAX_DIFF_INT: 40>, 'OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_MAX_SPECKLE_SIZE_INT' : <OBPropertyID.OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_MAX_SPECKLE_SIZE_INT: 41>, 'OB_PROP_DEPTH_ALIGN_HARDWARE_BOOL': <OBPropertyID.OB_PROP_DEPTH_ALIGN_HARDWARE_BOOL: 42>, 'OB_PROP_TIMESTAMP_OFFSET_INT': <OBPropertyID.OB_PROP_TIMESTAMP_OFFSET_INT: 43>, 'OB_PROP_HARDWARE_DISTORTION_SWITCH_BOOL': <OBPropertyID.OB_PROP_HARDWARE_DISTORTION_SWITCH_BOOL: 61>, 'OB_PROP_FAN_WORK_MODE_INT': <OBPropertyID.OB_PROP_FAN_WORK_MODE_INT: 62>, 'OB_PROP_DEPTH_ALIGN_HARDWARE_MODE_INT': <OBPropertyID.OB_PROP_DEPTH_ALIGN_HARDWARE_MODE_INT: 63>, 'OB_PROP_ANTI_COLLUSION_ACTIVATION_STATUS_BOOL': <OBPropertyID.OB_PROP_ANTI_COLLUSION_ACTIVATION_STATUS_BOOL: 64>, 'OB_PROP_DEPTH_PRECISION_LEVEL_INT': <OBPropertyID.OB_PROP_DEPTH_PRECISION_LEVEL_INT: 75>, 'OB_PROP_TOF_FILTER_RANGE_INT': <OBPropertyID.OB_PROP_TOF_FILTER_RANGE_INT: 76>, 'OB_PROP_LASER_MODE_INT': <OBPropertyID.OB_PROP_LASER_MODE_INT: 79>, 'OB_PROP_RECTIFY2_BOOL': <OBPropertyID.OB_PROP_RECTIFY2_BOOL: 80>, 'OB_PROP_COLOR_MIRROR_BOOL': <OBPropertyID.OB_PROP_COLOR_MIRROR_BOOL: 81>, 'OB_PROP_COLOR_FLIP_BOOL': <OBPropertyID.OB_PROP_COLOR_FLIP_BOOL: 82>, 'OB_PROP_INDICATOR_LIGHT_BOOL': <OBPropertyID.OB_PROP_INDICATOR_LIGHT_BOOL: 83>, 'OB_PROP_DISPARITY_TO_DEPTH_BOOL': <OBPropertyID.OB_PROP_DISPARITY_TO_DEPTH_BOOL: 85>, 'OB_PROP_BRT_BOOL': <OBPropertyID.OB_PROP_BRT_BOOL: 86>, 'OB_PROP_WATCHDOG_BOOL': <OBPropertyID.OB_PROP_WATCHDOG_BOOL: 87>, 'OB_PROP_EXTERNAL_SIGNAL_RESET_BOOL': <OBPropertyID.OB_PROP_EXTERNAL_SIGNAL_RESET_BOOL: 88>, 'OB_PROP_HEARTBEAT_BOOL': <OBPropertyID.OB_PROP_HEARTBEAT_BOOL: 89>, 'OB_PROP_DEPTH_CROPPING_MODE_INT': <OBPropertyID.OB_PROP_DEPTH_CROPPING_MODE_INT: 90>, 'OB_PROP_D2C_PREPROCESS_BOOL': <OBPropertyID.OB_PROP_D2C_PREPROCESS_BOOL: 91>, 'OB_PROP_RGB_CUSTOM_CROP_BOOL': <OBPropertyID.OB_PROP_RGB_CUSTOM_CROP_BOOL: 94>, 'OB_PROP_DEVICE_WORK_MODE_INT': <OBPropertyID.OB_PROP_DEVICE_WORK_MODE_INT: 95>, 'OB_PROP_DEVICE_COMMUNICATION_TYPE_INT': <OBPropertyID.OB_PROP_DEVICE_COMMUNICATION_TYPE_INT: 97>, 'OB_PROP_SWITCH_IR_MODE_INT': <OBPropertyID.OB_PROP_SWITCH_IR_MODE_INT: 98>, 'OB_PROP_LASER_POWER_LEVEL_CONTROL_INT': <OBPropertyID.OB_PROP_LASER_POWER_LEVEL_CONTROL_INT: 99>, 'OB_PROP_LASER_ENERGY_LEVEL_INT': <OBPropertyID.OB_PROP_LASER_POWER_LEVEL_CONTROL_INT: 99>, 'OB_PROP_LDP_MEASURE_DISTANCE_INT': <OBPropertyID.OB_PROP_LDP_MEASURE_DISTANCE_INT: 100>, 'OB_PROP_TIMER_RESET_SIGNAL_BOOL': <OBPropertyID.OB_PROP_TIMER_RESET_SIGNAL_BOOL: 104>, 'OB_PROP_TIMER_RESET_TRIGGER_OUT_ENABLE_BOOL': <OBPropertyID.OB_PROP_TIMER_RESET_TRIGGER_OUT_ENABLE_BOOL: 105>, 'OB_PROP_TIMER_RESET_DELAY_US_INT': <OBPropertyID.OB_PROP_TIMER_RESET_DELAY_US_INT: 106>, 'OB_PROP_CAPTURE_IMAGE_SIGNAL_BOOL': <OBPropertyID.OB_PROP_CAPTURE_IMAGE_SIGNAL_BOOL: 107>, 'OB_PROP_IR_RIGHT_MIRROR_BOOL': <OBPropertyID.OB_PROP_IR_RIGHT_MIRROR_BOOL: 112>, 'OB_PROP_CAPTURE_IMAGE_FRAME_NUMBER_INT': <OBPropertyID.OB_PROP_CAPTURE_IMAGE_FRAME_NUMBER_INT: 113>, 'OB_PROP_IR_RIGHT_FLIP_BOOL': <OBPropertyID.OB_PROP_IR_RIGHT_FLIP_BOOL: 114>, 'OB_PROP_COLOR_ROTATE_INT': <OBPropertyID.OB_PROP_COLOR_ROTATE_INT: 115>, 'OB_PROP_IR_ROTATE_INT': <OBPropertyID.OB_PROP_IR_ROTATE_INT: 116>, 'OB_PROP_IR_RIGHT_ROTATE_INT': <OBPropertyID.OB_PROP_IR_RIGHT_ROTATE_INT: 117>, 'OB_PROP_DEPTH_ROTATE_INT': <OBPropertyID.OB_PROP_DEPTH_ROTATE_INT: 118>, 'OB_PROP_LASER_HW_ENERGY_LEVEL_INT': <OBPropertyID.OB_PROP_LASER_HW_ENERGY_LEVEL_INT: 119>, 'OB_PROP_USB_POWER_STATE_INT': <OBPropertyID.OB_PROP_USB_POWER_STATE_INT: 121>, 'OB_PROP_DC_POWER_STATE_INT': <OBPropertyID.OB_PROP_DC_POWER_STATE_INT: 122>, 'OB_PROP_DEVICE_DEVELOPMENT_MODE_INT': <OBPropertyID.OB_PROP_DEVICE_DEVELOPMENT_MODE_INT: 129>, 'OB_PROP_SYNC_SIGNAL_TRIGGER_OUT_BOOL': <OBPropertyID.OB_PROP_SYNC_SIGNAL_TRIGGER_OUT_BOOL: 130>, 'OB_PROP_RESTORE_FACTORY_SETTINGS_BOOL': <OBPropertyID.OB_PROP_RESTORE_FACTORY_SETTINGS_BOOL: 131>, 'OB_PROP_BOOT_INTO_RECOVERY_MODE_BOOL': <OBPropertyID.OB_PROP_BOOT_INTO_RECOVERY_MODE_BOOL: 132>, 'OB_PROP_DEVICE_IN_RECOVERY_MODE_BOOL': <OBPropertyID.OB_PROP_DEVICE_IN_RECOVERY_MODE_BOOL: 133>, 'OB_PROP_CAPTURE_INTERVAL_MODE_INT': <OBPropertyID.OB_PROP_CAPTURE_INTERVAL_MODE_INT: 134>, 'OB_PROP_CAPTURE_IMAGE_TIME_INTERVAL_INT': <OBPropertyID.OB_PROP_CAPTURE_IMAGE_TIME_INTERVAL_INT: 135>, 'OB_PROP_CAPTURE_IMAGE_NUMBER_INTERVAL_INT': <OBPropertyID.OB_PROP_CAPTURE_IMAGE_NUMBER_INTERVAL_INT: 136>, 'OB_PROP_TIMER_RESET_ENABLE_BOOL': <OBPropertyID.OB_PROP_TIMER_RESET_ENABLE_BOOL: 140>, 'OB_PROP_DEVICE_USB3_REPEAT_IDENTIFY_BOOL': <OBPropertyID.OB_PROP_DEVICE_USB3_REPEAT_IDENTIFY_BOOL: 141>, 'OB_PROP_DEVICE_REBOOT_DELAY_INT': <OBPropertyID.OB_PROP_DEVICE_REBOOT_DELAY_INT: 142>, 'OB_PROP_LASER_OVERCURRENT_PROTECTION_STATUS_BOOL': <OBPropertyID.OB_PROP_LASER_OVERCURRENT_PROTECTION_STATUS_BOOL: 148>, 'OB_PROP_LASER_PULSE_WIDTH_PROTECTION_STATUS_BOOL': <OBPropertyID.OB_PROP_LASER_PULSE_WIDTH_PROTECTION_STATUS_BOOL: 149>, 'OB_PROP_LASER_ALWAYS_ON_BOOL': <OBPropertyID.OB_PROP_LASER_ALWAYS_ON_BOOL: 174>, 'OB_PROP_LASER_ON_OFF_PATTERN_INT': <OBPropertyID.OB_PROP_LASER_ON_OFF_PATTERN_INT: 175>, 'OB_PROP_DEPTH_UNIT_FLEXIBLE_ADJUSTMENT_FLOAT': <OBPropertyID.OB_PROP_DEPTH_UNIT_FLEXIBLE_ADJUSTMENT_FLOAT: 176>, 'OB_PROP_LASER_CONTROL_INT': <OBPropertyID.OB_PROP_LASER_CONTROL_INT: 182>, 'OB_PROP_IR_BRIGHTNESS_INT': <OBPropertyID.OB_PROP_IR_BRIGHTNESS_INT: 184>, 'OB_PROP_SLAVE_DEVICE_SYNC_STATUS_BOOL': <OBPropertyID.OB_PROP_SLAVE_DEVICE_SYNC_STATUS_BOOL: 188>, 'OB_PROP_COLOR_AE_MAX_EXPOSURE_INT': <OBPropertyID.OB_PROP_COLOR_AE_MAX_EXPOSURE_INT: 189>, 'OB_PROP_IR_AE_MAX_EXPOSURE_INT': <OBPropertyID.OB_PROP_IR_AE_MAX_EXPOSURE_INT: 190>, 'OB_PROP_DISP_SEARCH_RANGE_MODE_INT': <OBPropertyID.OB_PROP_DISP_SEARCH_RANGE_MODE_INT: 191>, 'OB_PROP_DEVICE_REPOWER_BOOL': <OBPropertyID.OB_PROP_DEVICE_REPOWER_BOOL: 202>, 'OB_PROP_FRAME_INTERLEAVE_CONFIG_INDEX_INT': <OBPropertyID.OB_PROP_FRAME_INTERLEAVE_CONFIG_INDEX_INT: 204>, 'OB_PROP_FRAME_INTERLEAVE_ENABLE_BOOL': <OBPropertyID.OB_PROP_FRAME_INTERLEAVE_ENABLE_BOOL: 205>, 'OB_PROP_FRAME_INTERLEAVE_LASER_PATTERN_SYNC_DELAY_INT': <OBPropertyID.OB_PROP_FRAME_INTERLEAVE_LASER_PATTERN_SYNC_DELAY_INT: 206>, 'OB_STRUCT_BASELINE_CALIBRATION_PARAM': <OBPropertyID.OB_STRUCT_BASELINE_CALIBRATION_PARAM: 1002>, 'OB_STRUCT_DEVICE_TEMPERATURE': <OBPropertyID.OB_STRUCT_DEVICE_TEMPERATURE: 1003>, 'OB_STRUCT_TOF_EXPOSURE_THRESHOLD_CONTROL': <OBPropertyID.OB_STRUCT_TOF_EXPOSURE_THRESHOLD_CONTROL: 1024>, 'OB_STRUCT_DEVICE_SERIAL_NUMBER': <OBPropertyID.OB_STRUCT_DEVICE_SERIAL_NUMBER: 1035>, 'OB_STRUCT_DEVICE_TIME': <OBPropertyID.OB_STRUCT_DEVICE_TIME: 1037>, 'OB_STRUCT_MULTI_DEVICE_SYNC_CONFIG': <OBPropertyID.OB_STRUCT_MULTI_DEVICE_SYNC_CONFIG: 1038>, 'OB_STRUCT_RGB_CROP_ROI': <OBPropertyID.OB_STRUCT_RGB_CROP_ROI: 1040>, 'OB_STRUCT_DEVICE_IP_ADDR_CONFIG': <OBPropertyID.OB_STRUCT_DEVICE_IP_ADDR_CONFIG: 1041>, 'OB_STRUCT_CURRENT_DEPTH_ALG_MODE': <OBPropertyID.OB_STRUCT_CURRENT_DEPTH_ALG_MODE: 1043>, 'OB_STRUCT_DEPTH_PRECISION_SUPPORT_LIST': <OBPropertyID.OB_STRUCT_DEPTH_PRECISION_SUPPORT_LIST: 1045>, 'OB_STRUCT_DEVICE_STATIC_IP_CONFIG_RECORD': <OBPropertyID.OB_STRUCT_DEVICE_STATIC_IP_CONFIG_RECORD: 1053>, 'OB_STRUCT_DEPTH_HDR_CONFIG': <OBPropertyID.OB_STRUCT_DEPTH_HDR_CONFIG: 1059>, 'OB_STRUCT_COLOR_AE_ROI': <OBPropertyID.OB_STRUCT_COLOR_AE_ROI: 1060>, 'OB_STRUCT_DEPTH_AE_ROI': <OBPropertyID.OB_STRUCT_DEPTH_AE_ROI: 1061>, 'OB_STRUCT_ASIC_SERIAL_NUMBER': <OBPropertyID.OB_STRUCT_ASIC_SERIAL_NUMBER: 1063>, 'OB_PROP_COLOR_AUTO_EXPOSURE_BOOL': <OBPropertyID.OB_PROP_COLOR_AUTO_EXPOSURE_BOOL: 2000>, 'OB_PROP_COLOR_EXPOSURE_INT': <OBPropertyID.OB_PROP_COLOR_EXPOSURE_INT: 2001>, 'OB_PROP_COLOR_GAIN_INT': <OBPropertyID.OB_PROP_COLOR_GAIN_INT: 2002>, 'OB_PROP_COLOR_AUTO_WHITE_BALANCE_BOOL': <OBPropertyID.OB_PROP_COLOR_AUTO_WHITE_BALANCE_BOOL: 2003>, 'OB_PROP_COLOR_WHITE_BALANCE_INT': <OBPropertyID.OB_PROP_COLOR_WHITE_BALANCE_INT: 2004>, 'OB_PROP_COLOR_BRIGHTNESS_INT': <OBPropertyID.OB_PROP_COLOR_BRIGHTNESS_INT: 2005>, 'OB_PROP_COLOR_SHARPNESS_INT': <OBPropertyID.OB_PROP_COLOR_SHARPNESS_INT: 2006>, 'OB_PROP_COLOR_SHUTTER_INT': <OBPropertyID.OB_PROP_COLOR_SHUTTER_INT: 2007>, 'OB_PROP_COLOR_SATURATION_INT': <OBPropertyID.OB_PROP_COLOR_SATURATION_INT: 2008>, 'OB_PROP_COLOR_CONTRAST_INT': <OBPropertyID.OB_PROP_COLOR_CONTRAST_INT: 2009>, 'OB_PROP_COLOR_GAMMA_INT': <OBPropertyID.OB_PROP_COLOR_GAMMA_INT: 2010>, 'OB_PROP_COLOR_ROLL_INT': <OBPropertyID.OB_PROP_COLOR_ROLL_INT: 2011>, 'OB_PROP_COLOR_AUTO_EXPOSURE_PRIORITY_INT': <OBPropertyID.OB_PROP_COLOR_AUTO_EXPOSURE_PRIORITY_INT: 2012>, 'OB_PROP_COLOR_BACKLIGHT_COMPENSATION_INT': <OBPropertyID.OB_PROP_COLOR_BACKLIGHT_COMPENSATION_INT: 2013>, 'OB_PROP_COLOR_HUE_INT': <OBPropertyID.OB_PROP_COLOR_HUE_INT: 2014>, 'OB_PROP_COLOR_POWER_LINE_FREQUENCY_INT': <OBPropertyID.OB_PROP_COLOR_POWER_LINE_FREQUENCY_INT: 2015>, 'OB_PROP_DEPTH_AUTO_EXPOSURE_BOOL': <OBPropertyID.OB_PROP_DEPTH_AUTO_EXPOSURE_BOOL: 2016>, 'OB_PROP_DEPTH_EXPOSURE_INT': <OBPropertyID.OB_PROP_DEPTH_EXPOSURE_INT: 2017>, 'OB_PROP_DEPTH_GAIN_INT': <OBPropertyID.OB_PROP_DEPTH_GAIN_INT: 2018>, 'OB_PROP_IR_AUTO_EXPOSURE_BOOL': <OBPropertyID.OB_PROP_IR_AUTO_EXPOSURE_BOOL: 2025>, 'OB_PROP_IR_EXPOSURE_INT': <OBPropertyID.OB_PROP_IR_EXPOSURE_INT: 2026>, 'OB_PROP_IR_GAIN_INT': <OBPropertyID.OB_PROP_IR_GAIN_INT: 2027>, 'OB_PROP_IR_CHANNEL_DATA_SOURCE_INT': <OBPropertyID.OB_PROP_IR_CHANNEL_DATA_SOURCE_INT: 2028>, 'OB_PROP_DEPTH_RM_FILTER_BOOL': <OBPropertyID.OB_PROP_DEPTH_RM_FILTER_BOOL: 2029>, 'OB_PROP_COLOR_MAXIMAL_GAIN_INT': <OBPropertyID.OB_PROP_COLOR_MAXIMAL_GAIN_INT: 2030>, 'OB_PROP_COLOR_MAXIMAL_SHUTTER_INT': <OBPropertyID.OB_PROP_COLOR_MAXIMAL_SHUTTER_INT: 2031>, 'OB_PROP_IR_SHORT_EXPOSURE_BOOL': <OBPropertyID.OB_PROP_IR_SHORT_EXPOSURE_BOOL: 2032>, 'OB_PROP_COLOR_HDR_BOOL': <OBPropertyID.OB_PROP_COLOR_HDR_BOOL: 2034>, 'OB_PROP_IR_LONG_EXPOSURE_BOOL': <OBPropertyID.OB_PROP_IR_LONG_EXPOSURE_BOOL: 2035>, 'OB_PROP_SKIP_FRAME_BOOL': <OBPropertyID.OB_PROP_SKIP_FRAME_BOOL: 2036>, 'OB_PROP_HDR_MERGE_BOOL': <OBPropertyID.OB_PROP_HDR_MERGE_BOOL: 2037>, 'OB_PROP_COLOR_FOCUS_INT': <OBPropertyID.OB_PROP_COLOR_FOCUS_INT: 2038>, 'OB_PROP_SDK_DISPARITY_TO_DEPTH_BOOL': <OBPropertyID.OB_PROP_SDK_DISPARITY_TO_DEPTH_BOOL: 3004>, 'OB_PROP_SDK_DEPTH_FRAME_UNPACK_BOOL': <OBPropertyID.OB_PROP_SDK_DEPTH_FRAME_UNPACK_BOOL: 3007>, 'OB_PROP_SDK_IR_FRAME_UNPACK_BOOL': <OBPropertyID.OB_PROP_SDK_IR_FRAME_UNPACK_BOOL: 3008>, 'OB_PROP_SDK_ACCEL_FRAME_TRANSFORMED_BOOL': <OBPropertyID.OB_PROP_SDK_ACCEL_FRAME_TRANSFORMED_BOOL: 3009>, 'OB_PROP_SDK_GYRO_FRAME_TRANSFORMED_BOOL': <OBPropertyID.OB_PROP_SDK_GYRO_FRAME_TRANSFORMED_BOOL: 3010>, 'OB_PROP_SDK_IR_LEFT_FRAME_UNPACK_BOOL': <OBPropertyID.OB_PROP_SDK_IR_LEFT_FRAME_UNPACK_BOOL: 3011>, 'OB_PROP_SDK_IR_RIGHT_FRAME_UNPACK_BOOL': <OBPropertyID.OB_PROP_SDK_IR_RIGHT_FRAME_UNPACK_BOOL: 3012>, 'OB_RAW_DATA_CAMERA_CALIB_JSON_FILE': <OBPropertyID.OB_RAW_DATA_CAMERA_CALIB_JSON_FILE: 4029>, 'OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_BOOL': <OBPropertyID.OB_PROP_DEPTH_SOFT_FILTER_BOOL: 24>, 'OB_DEVICE_AUTO_CAPTURE_ENABLE_BOOL': <OBPropertyID.OB_PROP_TIMER_RESET_ENABLE_BOOL: 216>, 'OB_DEVICE_AUTO_CAPTURE_INTERVAL_TIME_INT': <OBPropertyID.OB_PROP_TIMER_RESET_ENABLE_BOOL: 217>, 'OB_DEVICE_PTP_CLOCK_SYNC_ENABLE_BOOL':<OBPropertyID.OB_DEVICE_PTP_CLOCK_SYNC_ENABLE_BOOL:223>,'OB_PROP_DEBUG_ESGM_CONFIDENCE_FLOAT':<OBPropertyID.OB_PROP_DEBUG_ESGM_CONFIDENCE_FLOAT:5013>}
+    __members__: typing.ClassVar[dict[str, OBPropertyID]]  # value = {'OB_PROP_LDP_BOOL': <OBPropertyID.OB_PROP_LDP_BOOL: 2>, 'OB_PROP_LASER_BOOL': <OBPropertyID.OB_PROP_LASER_BOOL: 3>, 'OB_PROP_LASER_PULSE_WIDTH_INT': <OBPropertyID.OB_PROP_LASER_PULSE_WIDTH_INT: 4>, 'OB_PROP_LASER_CURRENT_FLOAT': <OBPropertyID.OB_PROP_LASER_CURRENT_FLOAT: 5>, 'OB_PROP_FLOOD_BOOL': <OBPropertyID.OB_PROP_FLOOD_BOOL: 6>, 'OB_PROP_FLOOD_LEVEL_INT': <OBPropertyID.OB_PROP_FLOOD_LEVEL_INT: 7>, 'OB_PROP_DEPTH_MIRROR_BOOL': <OBPropertyID.OB_PROP_DEPTH_MIRROR_BOOL: 14>, 'OB_PROP_DEPTH_FLIP_BOOL': <OBPropertyID.OB_PROP_DEPTH_FLIP_BOOL: 15>, 'OB_PROP_DEPTH_POSTFILTER_BOOL': <OBPropertyID.OB_PROP_DEPTH_POSTFILTER_BOOL: 16>, 'OB_PROP_DEPTH_HOLEFILTER_BOOL': <OBPropertyID.OB_PROP_DEPTH_HOLEFILTER_BOOL: 17>, 'OB_PROP_IR_MIRROR_BOOL': <OBPropertyID.OB_PROP_IR_MIRROR_BOOL: 18>, 'OB_PROP_IR_FLIP_BOOL': <OBPropertyID.OB_PROP_IR_FLIP_BOOL: 19>, 'OB_PROP_MIN_DEPTH_INT': <OBPropertyID.OB_PROP_MIN_DEPTH_INT: 22>, 'OB_PROP_MAX_DEPTH_INT': <OBPropertyID.OB_PROP_MAX_DEPTH_INT: 23>, 'OB_PROP_DEPTH_SOFT_FILTER_BOOL': <OBPropertyID.OB_PROP_DEPTH_SOFT_FILTER_BOOL: 24>, 'OB_PROP_LDP_STATUS_BOOL': <OBPropertyID.OB_PROP_LDP_STATUS_BOOL: 32>, 'OB_PROP_DEPTH_MAX_DIFF_INT': <OBPropertyID.OB_PROP_DEPTH_MAX_DIFF_INT: 40>, 'OB_PROP_DEPTH_MAX_SPECKLE_SIZE_INT': <OBPropertyID.OB_PROP_DEPTH_MAX_SPECKLE_SIZE_INT: 41>, 'OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_MAX_DIFF_INT': <OBPropertyID.OB_PROP_DEPTH_MAX_DIFF_INT: 40>, 'OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_MAX_SPECKLE_SIZE_INT': <OBPropertyID.OB_PROP_DEPTH_MAX_SPECKLE_SIZE_INT: 41>, 'OB_PROP_DEPTH_ALIGN_HARDWARE_BOOL': <OBPropertyID.OB_PROP_DEPTH_ALIGN_HARDWARE_BOOL: 42>, 'OB_PROP_TIMESTAMP_OFFSET_INT': <OBPropertyID.OB_PROP_TIMESTAMP_OFFSET_INT: 43>, 'OB_PROP_HARDWARE_DISTORTION_SWITCH_BOOL': <OBPropertyID.OB_PROP_HARDWARE_DISTORTION_SWITCH_BOOL: 61>, 'OB_PROP_FAN_WORK_MODE_INT': <OBPropertyID.OB_PROP_FAN_WORK_MODE_INT: 62>, 'OB_PROP_DEPTH_ALIGN_HARDWARE_MODE_INT': <OBPropertyID.OB_PROP_DEPTH_ALIGN_HARDWARE_MODE_INT: 63>, 'OB_PROP_ANTI_COLLUSION_ACTIVATION_STATUS_BOOL': <OBPropertyID.OB_PROP_ANTI_COLLUSION_ACTIVATION_STATUS_BOOL: 64>, 'OB_PROP_DEPTH_PRECISION_LEVEL_INT': <OBPropertyID.OB_PROP_DEPTH_PRECISION_LEVEL_INT: 75>, 'OB_PROP_TOF_FILTER_RANGE_INT': <OBPropertyID.OB_PROP_TOF_FILTER_RANGE_INT: 76>, 'OB_PROP_LASER_MODE_INT': <OBPropertyID.OB_PROP_LASER_MODE_INT: 79>, 'OB_PROP_RECTIFY2_BOOL': <OBPropertyID.OB_PROP_RECTIFY2_BOOL: 80>, 'OB_PROP_COLOR_MIRROR_BOOL': <OBPropertyID.OB_PROP_COLOR_MIRROR_BOOL: 81>, 'OB_PROP_COLOR_FLIP_BOOL': <OBPropertyID.OB_PROP_COLOR_FLIP_BOOL: 82>, 'OB_PROP_INDICATOR_LIGHT_BOOL': <OBPropertyID.OB_PROP_INDICATOR_LIGHT_BOOL: 83>, 'OB_PROP_DISPARITY_TO_DEPTH_BOOL': <OBPropertyID.OB_PROP_DISPARITY_TO_DEPTH_BOOL: 85>, 'OB_PROP_BRT_BOOL': <OBPropertyID.OB_PROP_BRT_BOOL: 86>, 'OB_PROP_WATCHDOG_BOOL': <OBPropertyID.OB_PROP_WATCHDOG_BOOL: 87>, 'OB_PROP_EXTERNAL_SIGNAL_RESET_BOOL': <OBPropertyID.OB_PROP_EXTERNAL_SIGNAL_RESET_BOOL: 88>, 'OB_PROP_HEARTBEAT_BOOL': <OBPropertyID.OB_PROP_HEARTBEAT_BOOL: 89>, 'OB_PROP_DEPTH_CROPPING_MODE_INT': <OBPropertyID.OB_PROP_DEPTH_CROPPING_MODE_INT: 90>, 'OB_PROP_D2C_PREPROCESS_BOOL': <OBPropertyID.OB_PROP_D2C_PREPROCESS_BOOL: 91>, 'OB_PROP_RGB_CUSTOM_CROP_BOOL': <OBPropertyID.OB_PROP_RGB_CUSTOM_CROP_BOOL: 94>, 'OB_PROP_DEVICE_WORK_MODE_INT': <OBPropertyID.OB_PROP_DEVICE_WORK_MODE_INT: 95>, 'OB_PROP_DEVICE_COMMUNICATION_TYPE_INT': <OBPropertyID.OB_PROP_DEVICE_COMMUNICATION_TYPE_INT: 97>, 'OB_PROP_SWITCH_IR_MODE_INT': <OBPropertyID.OB_PROP_SWITCH_IR_MODE_INT: 98>, 'OB_PROP_LASER_POWER_LEVEL_CONTROL_INT': <OBPropertyID.OB_PROP_LASER_POWER_LEVEL_CONTROL_INT: 99>, 'OB_PROP_LASER_ENERGY_LEVEL_INT': <OBPropertyID.OB_PROP_LASER_POWER_LEVEL_CONTROL_INT: 99>, 'OB_PROP_LDP_MEASURE_DISTANCE_INT': <OBPropertyID.OB_PROP_LDP_MEASURE_DISTANCE_INT: 100>, 'OB_PROP_TIMER_RESET_SIGNAL_BOOL': <OBPropertyID.OB_PROP_TIMER_RESET_SIGNAL_BOOL: 104>, 'OB_PROP_TIMER_RESET_TRIGGER_OUT_ENABLE_BOOL': <OBPropertyID.OB_PROP_TIMER_RESET_TRIGGER_OUT_ENABLE_BOOL: 105>, 'OB_PROP_TIMER_RESET_DELAY_US_INT': <OBPropertyID.OB_PROP_TIMER_RESET_DELAY_US_INT: 106>, 'OB_PROP_CAPTURE_IMAGE_SIGNAL_BOOL': <OBPropertyID.OB_PROP_CAPTURE_IMAGE_SIGNAL_BOOL: 107>, 'OB_PROP_IR_RIGHT_MIRROR_BOOL': <OBPropertyID.OB_PROP_IR_RIGHT_MIRROR_BOOL: 112>, 'OB_PROP_CAPTURE_IMAGE_FRAME_NUMBER_INT': <OBPropertyID.OB_PROP_CAPTURE_IMAGE_FRAME_NUMBER_INT: 113>, 'OB_PROP_IR_RIGHT_FLIP_BOOL': <OBPropertyID.OB_PROP_IR_RIGHT_FLIP_BOOL: 114>, 'OB_PROP_COLOR_ROTATE_INT': <OBPropertyID.OB_PROP_COLOR_ROTATE_INT: 115>, 'OB_PROP_IR_ROTATE_INT': <OBPropertyID.OB_PROP_IR_ROTATE_INT: 116>, 'OB_PROP_IR_RIGHT_ROTATE_INT': <OBPropertyID.OB_PROP_IR_RIGHT_ROTATE_INT: 117>, 'OB_PROP_DEPTH_ROTATE_INT': <OBPropertyID.OB_PROP_DEPTH_ROTATE_INT: 118>, 'OB_PROP_LASER_HW_ENERGY_LEVEL_INT': <OBPropertyID.OB_PROP_LASER_HW_ENERGY_LEVEL_INT: 119>, 'OB_PROP_USB_POWER_STATE_INT': <OBPropertyID.OB_PROP_USB_POWER_STATE_INT: 121>, 'OB_PROP_DC_POWER_STATE_INT': <OBPropertyID.OB_PROP_DC_POWER_STATE_INT: 122>, 'OB_PROP_DEVICE_DEVELOPMENT_MODE_INT': <OBPropertyID.OB_PROP_DEVICE_DEVELOPMENT_MODE_INT: 129>, 'OB_PROP_SYNC_SIGNAL_TRIGGER_OUT_BOOL': <OBPropertyID.OB_PROP_SYNC_SIGNAL_TRIGGER_OUT_BOOL: 130>, 'OB_PROP_RESTORE_FACTORY_SETTINGS_BOOL': <OBPropertyID.OB_PROP_RESTORE_FACTORY_SETTINGS_BOOL: 131>, 'OB_PROP_BOOT_INTO_RECOVERY_MODE_BOOL': <OBPropertyID.OB_PROP_BOOT_INTO_RECOVERY_MODE_BOOL: 132>, 'OB_PROP_DEVICE_IN_RECOVERY_MODE_BOOL': <OBPropertyID.OB_PROP_DEVICE_IN_RECOVERY_MODE_BOOL: 133>, 'OB_PROP_CAPTURE_INTERVAL_MODE_INT': <OBPropertyID.OB_PROP_CAPTURE_INTERVAL_MODE_INT: 134>, 'OB_PROP_CAPTURE_IMAGE_TIME_INTERVAL_INT': <OBPropertyID.OB_PROP_CAPTURE_IMAGE_TIME_INTERVAL_INT: 135>, 'OB_PROP_CAPTURE_IMAGE_NUMBER_INTERVAL_INT': <OBPropertyID.OB_PROP_CAPTURE_IMAGE_NUMBER_INTERVAL_INT: 136>, 'OB_PROP_TIMER_RESET_ENABLE_BOOL': <OBPropertyID.OB_PROP_TIMER_RESET_ENABLE_BOOL: 140>, 'OB_PROP_DEVICE_USB3_REPEAT_IDENTIFY_BOOL': <OBPropertyID.OB_PROP_DEVICE_USB3_REPEAT_IDENTIFY_BOOL: 141>, 'OB_PROP_DEVICE_REBOOT_DELAY_INT': <OBPropertyID.OB_PROP_DEVICE_REBOOT_DELAY_INT: 142>, 'OB_PROP_LASER_OVERCURRENT_PROTECTION_STATUS_BOOL': <OBPropertyID.OB_PROP_LASER_OVERCURRENT_PROTECTION_STATUS_BOOL: 148>, 'OB_PROP_LASER_PULSE_WIDTH_PROTECTION_STATUS_BOOL': <OBPropertyID.OB_PROP_LASER_PULSE_WIDTH_PROTECTION_STATUS_BOOL: 149>, 'OB_PROP_LASER_ALWAYS_ON_BOOL': <OBPropertyID.OB_PROP_LASER_ALWAYS_ON_BOOL: 174>, 'OB_PROP_LASER_ON_OFF_PATTERN_INT': <OBPropertyID.OB_PROP_LASER_ON_OFF_PATTERN_INT: 175>, 'OB_PROP_DEPTH_UNIT_FLEXIBLE_ADJUSTMENT_FLOAT': <OBPropertyID.OB_PROP_DEPTH_UNIT_FLEXIBLE_ADJUSTMENT_FLOAT: 176>, 'OB_PROP_LASER_CONTROL_INT': <OBPropertyID.OB_PROP_LASER_CONTROL_INT: 182>, 'OB_PROP_IR_BRIGHTNESS_INT': <OBPropertyID.OB_PROP_IR_BRIGHTNESS_INT: 184>, 'OB_PROP_SLAVE_DEVICE_SYNC_STATUS_BOOL': <OBPropertyID.OB_PROP_SLAVE_DEVICE_SYNC_STATUS_BOOL: 188>, 'OB_PROP_COLOR_AE_MAX_EXPOSURE_INT': <OBPropertyID.OB_PROP_COLOR_AE_MAX_EXPOSURE_INT: 189>, 'OB_PROP_IR_AE_MAX_EXPOSURE_INT': <OBPropertyID.OB_PROP_IR_AE_MAX_EXPOSURE_INT: 190>, 'OB_PROP_DISP_SEARCH_RANGE_MODE_INT': <OBPropertyID.OB_PROP_DISP_SEARCH_RANGE_MODE_INT: 191>, 'OB_PROP_LASER_HIGH_TEMPERATURE_PROTECT_BOOL': <OBPropertyID.OB_PROP_LASER_HIGH_TEMPERATURE_PROTECT_BOOL: 193>, 'OB_PROP_LOW_EXPOSURE_LASER_CONTROL_BOOL': <OBPropertyID.OB_PROP_LOW_EXPOSURE_LASER_CONTROL_BOOL: 194>, 'OB_PROP_CHECK_PPS_SYNC_IN_SIGNAL_BOOL': <OBPropertyID.OB_PROP_CHECK_PPS_SYNC_IN_SIGNAL_BOOL: 195>, 'OB_PROP_DISP_SEARCH_OFFSET_INT': <OBPropertyID.OB_PROP_DISP_SEARCH_OFFSET_INT: 196>, 'OB_PROP_DEVICE_REPOWER_BOOL': <OBPropertyID.OB_PROP_DEVICE_REPOWER_BOOL: 202>, 'OB_PROP_FRAME_INTERLEAVE_CONFIG_INDEX_INT': <OBPropertyID.OB_PROP_FRAME_INTERLEAVE_CONFIG_INDEX_INT: 204>, 'OB_PROP_FRAME_INTERLEAVE_ENABLE_BOOL': <OBPropertyID.OB_PROP_FRAME_INTERLEAVE_ENABLE_BOOL: 205>, 'OB_PROP_FRAME_INTERLEAVE_LASER_PATTERN_SYNC_DELAY_INT': <OBPropertyID.OB_PROP_FRAME_INTERLEAVE_LASER_PATTERN_SYNC_DELAY_INT: 206>, 'OB_PROP_ON_CHIP_CALIBRATION_HEALTH_CHECK_FLOAT': <OBPropertyID.OB_PROP_ON_CHIP_CALIBRATION_HEALTH_CHECK_FLOAT: 209>, 'OB_PROP_ON_CHIP_CALIBRATION_ENABLE_BOOL': <OBPropertyID.OB_PROP_ON_CHIP_CALIBRATION_ENABLE_BOOL: 210>, 'OB_PROP_HW_NOISE_REMOVE_FILTER_ENABLE_BOOL': <OBPropertyID.OB_PROP_HW_NOISE_REMOVE_FILTER_ENABLE_BOOL: 211>, 'OB_PROP_HW_NOISE_REMOVE_FILTER_THRESHOLD_FLOAT': <OBPropertyID.OB_PROP_HW_NOISE_REMOVE_FILTER_THRESHOLD_FLOAT: 212>, 'OB_STRUCT_BASELINE_CALIBRATION_PARAM': <OBPropertyID.OB_STRUCT_BASELINE_CALIBRATION_PARAM: 1002>, 'OB_STRUCT_DEVICE_TEMPERATURE': <OBPropertyID.OB_STRUCT_DEVICE_TEMPERATURE: 1003>, 'OB_STRUCT_TOF_EXPOSURE_THRESHOLD_CONTROL': <OBPropertyID.OB_STRUCT_TOF_EXPOSURE_THRESHOLD_CONTROL: 1024>, 'OB_STRUCT_DEVICE_SERIAL_NUMBER': <OBPropertyID.OB_STRUCT_DEVICE_SERIAL_NUMBER: 1035>, 'OB_STRUCT_DEVICE_TIME': <OBPropertyID.OB_STRUCT_DEVICE_TIME: 1037>, 'OB_STRUCT_MULTI_DEVICE_SYNC_CONFIG': <OBPropertyID.OB_STRUCT_MULTI_DEVICE_SYNC_CONFIG: 1038>, 'OB_STRUCT_RGB_CROP_ROI': <OBPropertyID.OB_STRUCT_RGB_CROP_ROI: 1040>, 'OB_STRUCT_DEVICE_IP_ADDR_CONFIG': <OBPropertyID.OB_STRUCT_DEVICE_IP_ADDR_CONFIG: 1041>, 'OB_STRUCT_CURRENT_DEPTH_ALG_MODE': <OBPropertyID.OB_STRUCT_CURRENT_DEPTH_ALG_MODE: 1043>, 'OB_STRUCT_DEPTH_PRECISION_SUPPORT_LIST': <OBPropertyID.OB_STRUCT_DEPTH_PRECISION_SUPPORT_LIST: 1045>, 'OB_STRUCT_DEVICE_STATIC_IP_CONFIG_RECORD': <OBPropertyID.OB_STRUCT_DEVICE_STATIC_IP_CONFIG_RECORD: 1053>, 'OB_STRUCT_DEPTH_HDR_CONFIG': <OBPropertyID.OB_STRUCT_DEPTH_HDR_CONFIG: 1059>, 'OB_STRUCT_COLOR_AE_ROI': <OBPropertyID.OB_STRUCT_COLOR_AE_ROI: 1060>, 'OB_STRUCT_DEPTH_AE_ROI': <OBPropertyID.OB_STRUCT_DEPTH_AE_ROI: 1061>, 'OB_STRUCT_ASIC_SERIAL_NUMBER': <OBPropertyID.OB_STRUCT_ASIC_SERIAL_NUMBER: 1063>, 'OB_STRUCT_DISP_OFFSET_CONFIG': <OBPropertyID.OB_STRUCT_DISP_OFFSET_CONFIG: 1064>, 'OB_PROP_COLOR_AUTO_EXPOSURE_BOOL': <OBPropertyID.OB_PROP_COLOR_AUTO_EXPOSURE_BOOL: 2000>, 'OB_PROP_COLOR_EXPOSURE_INT': <OBPropertyID.OB_PROP_COLOR_EXPOSURE_INT: 2001>, 'OB_PROP_COLOR_GAIN_INT': <OBPropertyID.OB_PROP_COLOR_GAIN_INT: 2002>, 'OB_PROP_COLOR_AUTO_WHITE_BALANCE_BOOL': <OBPropertyID.OB_PROP_COLOR_AUTO_WHITE_BALANCE_BOOL: 2003>, 'OB_PROP_COLOR_WHITE_BALANCE_INT': <OBPropertyID.OB_PROP_COLOR_WHITE_BALANCE_INT: 2004>, 'OB_PROP_COLOR_BRIGHTNESS_INT': <OBPropertyID.OB_PROP_COLOR_BRIGHTNESS_INT: 2005>, 'OB_PROP_COLOR_SHARPNESS_INT': <OBPropertyID.OB_PROP_COLOR_SHARPNESS_INT: 2006>, 'OB_PROP_COLOR_SHUTTER_INT': <OBPropertyID.OB_PROP_COLOR_SHUTTER_INT: 2007>, 'OB_PROP_COLOR_SATURATION_INT': <OBPropertyID.OB_PROP_COLOR_SATURATION_INT: 2008>, 'OB_PROP_COLOR_CONTRAST_INT': <OBPropertyID.OB_PROP_COLOR_CONTRAST_INT: 2009>, 'OB_PROP_COLOR_GAMMA_INT': <OBPropertyID.OB_PROP_COLOR_GAMMA_INT: 2010>, 'OB_PROP_COLOR_ROLL_INT': <OBPropertyID.OB_PROP_COLOR_ROLL_INT: 2011>, 'OB_PROP_COLOR_AUTO_EXPOSURE_PRIORITY_INT': <OBPropertyID.OB_PROP_COLOR_AUTO_EXPOSURE_PRIORITY_INT: 2012>, 'OB_PROP_COLOR_BACKLIGHT_COMPENSATION_INT': <OBPropertyID.OB_PROP_COLOR_BACKLIGHT_COMPENSATION_INT: 2013>, 'OB_PROP_COLOR_HUE_INT': <OBPropertyID.OB_PROP_COLOR_HUE_INT: 2014>, 'OB_PROP_COLOR_POWER_LINE_FREQUENCY_INT': <OBPropertyID.OB_PROP_COLOR_POWER_LINE_FREQUENCY_INT: 2015>, 'OB_PROP_DEPTH_AUTO_EXPOSURE_BOOL': <OBPropertyID.OB_PROP_DEPTH_AUTO_EXPOSURE_BOOL: 2016>, 'OB_PROP_DEPTH_EXPOSURE_INT': <OBPropertyID.OB_PROP_DEPTH_EXPOSURE_INT: 2017>, 'OB_PROP_DEPTH_GAIN_INT': <OBPropertyID.OB_PROP_DEPTH_GAIN_INT: 2018>, 'OB_PROP_IR_AUTO_EXPOSURE_BOOL': <OBPropertyID.OB_PROP_IR_AUTO_EXPOSURE_BOOL: 2025>, 'OB_PROP_IR_EXPOSURE_INT': <OBPropertyID.OB_PROP_IR_EXPOSURE_INT: 2026>, 'OB_PROP_IR_GAIN_INT': <OBPropertyID.OB_PROP_IR_GAIN_INT: 2027>, 'OB_PROP_IR_CHANNEL_DATA_SOURCE_INT': <OBPropertyID.OB_PROP_IR_CHANNEL_DATA_SOURCE_INT: 2028>, 'OB_PROP_DEPTH_RM_FILTER_BOOL': <OBPropertyID.OB_PROP_DEPTH_RM_FILTER_BOOL: 2029>, 'OB_PROP_COLOR_MAXIMAL_GAIN_INT': <OBPropertyID.OB_PROP_COLOR_MAXIMAL_GAIN_INT: 2030>, 'OB_PROP_COLOR_MAXIMAL_SHUTTER_INT': <OBPropertyID.OB_PROP_COLOR_MAXIMAL_SHUTTER_INT: 2031>, 'OB_PROP_IR_SHORT_EXPOSURE_BOOL': <OBPropertyID.OB_PROP_IR_SHORT_EXPOSURE_BOOL: 2032>, 'OB_PROP_COLOR_HDR_BOOL': <OBPropertyID.OB_PROP_COLOR_HDR_BOOL: 2034>, 'OB_PROP_IR_LONG_EXPOSURE_BOOL': <OBPropertyID.OB_PROP_IR_LONG_EXPOSURE_BOOL: 2035>, 'OB_PROP_SKIP_FRAME_BOOL': <OBPropertyID.OB_PROP_SKIP_FRAME_BOOL: 2036>, 'OB_PROP_HDR_MERGE_BOOL': <OBPropertyID.OB_PROP_HDR_MERGE_BOOL: 2037>, 'OB_PROP_COLOR_FOCUS_INT': <OBPropertyID.OB_PROP_COLOR_FOCUS_INT: 2038>, 'OB_PROP_IR_RECTIFY_BOOL': <OBPropertyID.OB_PROP_IR_RECTIFY_BOOL: 2040>, 'OB_PROP_SDK_DISPARITY_TO_DEPTH_BOOL': <OBPropertyID.OB_PROP_SDK_DISPARITY_TO_DEPTH_BOOL: 3004>, 'OB_PROP_SDK_DEPTH_FRAME_UNPACK_BOOL': <OBPropertyID.OB_PROP_SDK_DEPTH_FRAME_UNPACK_BOOL: 3007>, 'OB_PROP_SDK_IR_FRAME_UNPACK_BOOL': <OBPropertyID.OB_PROP_SDK_IR_FRAME_UNPACK_BOOL: 3008>, 'OB_PROP_SDK_ACCEL_FRAME_TRANSFORMED_BOOL': <OBPropertyID.OB_PROP_SDK_ACCEL_FRAME_TRANSFORMED_BOOL: 3009>, 'OB_PROP_SDK_GYRO_FRAME_TRANSFORMED_BOOL': <OBPropertyID.OB_PROP_SDK_GYRO_FRAME_TRANSFORMED_BOOL: 3010>, 'OB_PROP_SDK_IR_LEFT_FRAME_UNPACK_BOOL': <OBPropertyID.OB_PROP_SDK_IR_LEFT_FRAME_UNPACK_BOOL: 3011>, 'OB_PROP_SDK_IR_RIGHT_FRAME_UNPACK_BOOL': <OBPropertyID.OB_PROP_SDK_IR_RIGHT_FRAME_UNPACK_BOOL: 3012>, 'OB_RAW_DATA_CAMERA_CALIB_JSON_FILE': <OBPropertyID.OB_RAW_DATA_CAMERA_CALIB_JSON_FILE: 4029>, 'OB_PROP_DEPTH_NOISE_REMOVAL_FILTER_BOOL': <OBPropertyID.OB_PROP_DEPTH_SOFT_FILTER_BOOL: 24>, 'OB_DEVICE_AUTO_CAPTURE_ENABLE_BOOL': <OBPropertyID.OB_DEVICE_AUTO_CAPTURE_ENABLE_BOOL: 216>, 'OB_DEVICE_AUTO_CAPTURE_INTERVAL_TIME_INT': <OBPropertyID.OB_DEVICE_AUTO_CAPTURE_INTERVAL_TIME_INT: 217>, 'OB_DEVICE_PTP_CLOCK_SYNC_ENABLE_BOOL': <OBPropertyID.OB_DEVICE_PTP_CLOCK_SYNC_ENABLE_BOOL: 223>, 'OB_PROP_DEBUG_ESGM_CONFIDENCE_FLOAT': <OBPropertyID.OB_PROP_DEBUG_ESGM_CONFIDENCE_FLOAT: 5013>}
     def __eq__(self, other: typing.Any) -> bool:
         ...
     def __getstate__(self) -> int:
@@ -3184,9 +3280,12 @@ class OBSyncMode:
     
       SECONDARY_SOFT_TRIGGER
     
+      IR_IMU_SYNC
+    
       UNKNOWN
     """
     CLOSE: typing.ClassVar[OBSyncMode]  # value = <OBSyncMode.CLOSE: 0>
+    IR_IMU_SYNC: typing.ClassVar[OBSyncMode]  # value = <OBSyncMode.IR_IMU_SYNC: 8>
     PRIMARY: typing.ClassVar[OBSyncMode]  # value = <OBSyncMode.PRIMARY: 2>
     PRIMARY_IR_TRIGGER: typing.ClassVar[OBSyncMode]  # value = <OBSyncMode.PRIMARY_IR_TRIGGER: 5>
     PRIMARY_MCU_TRIGGER: typing.ClassVar[OBSyncMode]  # value = <OBSyncMode.PRIMARY_MCU_TRIGGER: 4>
@@ -3195,7 +3294,7 @@ class OBSyncMode:
     SECONDARY_SOFT_TRIGGER: typing.ClassVar[OBSyncMode]  # value = <OBSyncMode.SECONDARY_SOFT_TRIGGER: 7>
     STANDALONE: typing.ClassVar[OBSyncMode]  # value = <OBSyncMode.STANDALONE: 1>
     UNKNOWN: typing.ClassVar[OBSyncMode]  # value = <OBSyncMode.UNKNOWN: 255>
-    __members__: typing.ClassVar[dict[str, OBSyncMode]]  # value = {'CLOSE': <OBSyncMode.CLOSE: 0>, 'STANDALONE': <OBSyncMode.STANDALONE: 1>, 'PRIMARY': <OBSyncMode.PRIMARY: 2>, 'SECONDARY': <OBSyncMode.SECONDARY: 3>, 'PRIMARY_MCU_TRIGGER': <OBSyncMode.PRIMARY_MCU_TRIGGER: 4>, 'PRIMARY_IR_TRIGGER': <OBSyncMode.PRIMARY_IR_TRIGGER: 5>, 'PRIMARY_SOFT_TRIGGER': <OBSyncMode.PRIMARY_SOFT_TRIGGER: 6>, 'SECONDARY_SOFT_TRIGGER': <OBSyncMode.SECONDARY_SOFT_TRIGGER: 7>, 'UNKNOWN': <OBSyncMode.UNKNOWN: 255>}
+    __members__: typing.ClassVar[dict[str, OBSyncMode]]  # value = {'CLOSE': <OBSyncMode.CLOSE: 0>, 'STANDALONE': <OBSyncMode.STANDALONE: 1>, 'PRIMARY': <OBSyncMode.PRIMARY: 2>, 'SECONDARY': <OBSyncMode.SECONDARY: 3>, 'PRIMARY_MCU_TRIGGER': <OBSyncMode.PRIMARY_MCU_TRIGGER: 4>, 'PRIMARY_IR_TRIGGER': <OBSyncMode.PRIMARY_IR_TRIGGER: 5>, 'PRIMARY_SOFT_TRIGGER': <OBSyncMode.PRIMARY_SOFT_TRIGGER: 6>, 'SECONDARY_SOFT_TRIGGER': <OBSyncMode.SECONDARY_SOFT_TRIGGER: 7>, 'IR_IMU_SYNC': <OBSyncMode.IR_IMU_SYNC: 8>, 'UNKNOWN': <OBSyncMode.UNKNOWN: 255>}
     def __eq__(self, other: typing.Any) -> bool:
         ...
     def __getstate__(self) -> int:
@@ -3360,10 +3459,19 @@ class OBUpgradeState:
       DDR_ERROR
     
       TIMEOUT_ERROR
+    
+      ERR_MISMATCH
+    
+      ERR_UNSUPPORT_DEV
+    
+      ERR_INVALID_COUNT
     """
     DDR_ERROR: typing.ClassVar[OBUpgradeState]  # value = <OBUpgradeState.DDR_ERROR: -7>
     DONE: typing.ClassVar[OBUpgradeState]  # value = <OBUpgradeState.DONE: 3>
     ERASE_ERROR: typing.ClassVar[OBUpgradeState]  # value = <OBUpgradeState.ERASE_ERROR: -3>
+    ERR_INVALID_COUNT: typing.ClassVar[OBUpgradeState]  # value = <OBUpgradeState.ERR_INVALID_COUNT: -11>
+    ERR_MISMATCH: typing.ClassVar[OBUpgradeState]  # value = <OBUpgradeState.ERR_MISMATCH: -9>
+    ERR_UNSUPPORT_DEV: typing.ClassVar[OBUpgradeState]  # value = <OBUpgradeState.ERR_UNSUPPORT_DEV: -10>
     FILE_TRANSFER: typing.ClassVar[OBUpgradeState]  # value = <OBUpgradeState.FILE_TRANSFER: 4>
     FLASH_TYPE_ERROR: typing.ClassVar[OBUpgradeState]  # value = <OBUpgradeState.FLASH_TYPE_ERROR: -4>
     IMAGE_SIZE_ERROR: typing.ClassVar[OBUpgradeState]  # value = <OBUpgradeState.IMAGE_SIZE_ERROR: -5>
@@ -3375,7 +3483,7 @@ class OBUpgradeState:
     VERIFY_ERROR: typing.ClassVar[OBUpgradeState]  # value = <OBUpgradeState.VERIFY_ERROR: -1>
     VERIFY_IMAGE: typing.ClassVar[OBUpgradeState]  # value = <OBUpgradeState.VERIFY_IMAGE: 0>
     VERIFY_SUCCESS: typing.ClassVar[OBUpgradeState]  # value = <OBUpgradeState.VERIFY_SUCCESS: 5>
-    __members__: typing.ClassVar[dict[str, OBUpgradeState]]  # value = {'VERIFY_SUCCESS': <OBUpgradeState.VERIFY_SUCCESS: 5>, 'FILE_TRANSFER': <OBUpgradeState.FILE_TRANSFER: 4>, 'DONE': <OBUpgradeState.DONE: 3>, 'IN_PROGRESS': <OBUpgradeState.IN_PROGRESS: 2>, 'START': <OBUpgradeState.START: 1>, 'VERIFY_IMAGE': <OBUpgradeState.VERIFY_IMAGE: 0>, 'VERIFY_ERROR': <OBUpgradeState.VERIFY_ERROR: -1>, 'PROGRAM_ERROR': <OBUpgradeState.PROGRAM_ERROR: -2>, 'ERASE_ERROR': <OBUpgradeState.ERASE_ERROR: -3>, 'FLASH_TYPE_ERROR': <OBUpgradeState.FLASH_TYPE_ERROR: -4>, 'IMAGE_SIZE_ERROR': <OBUpgradeState.IMAGE_SIZE_ERROR: -5>, 'OTHER_ERROR': <OBUpgradeState.OTHER_ERROR: -6>, 'DDR_ERROR': <OBUpgradeState.DDR_ERROR: -7>, 'TIMEOUT_ERROR': <OBUpgradeState.TIMEOUT_ERROR: -8>}
+    __members__: typing.ClassVar[dict[str, OBUpgradeState]]  # value = {'VERIFY_SUCCESS': <OBUpgradeState.VERIFY_SUCCESS: 5>, 'FILE_TRANSFER': <OBUpgradeState.FILE_TRANSFER: 4>, 'DONE': <OBUpgradeState.DONE: 3>, 'IN_PROGRESS': <OBUpgradeState.IN_PROGRESS: 2>, 'START': <OBUpgradeState.START: 1>, 'VERIFY_IMAGE': <OBUpgradeState.VERIFY_IMAGE: 0>, 'VERIFY_ERROR': <OBUpgradeState.VERIFY_ERROR: -1>, 'PROGRAM_ERROR': <OBUpgradeState.PROGRAM_ERROR: -2>, 'ERASE_ERROR': <OBUpgradeState.ERASE_ERROR: -3>, 'FLASH_TYPE_ERROR': <OBUpgradeState.FLASH_TYPE_ERROR: -4>, 'IMAGE_SIZE_ERROR': <OBUpgradeState.IMAGE_SIZE_ERROR: -5>, 'OTHER_ERROR': <OBUpgradeState.OTHER_ERROR: -6>, 'DDR_ERROR': <OBUpgradeState.DDR_ERROR: -7>, 'TIMEOUT_ERROR': <OBUpgradeState.TIMEOUT_ERROR: -8>, 'ERR_MISMATCH': <OBUpgradeState.ERR_MISMATCH: -9>, 'ERR_UNSUPPORT_DEV': <OBUpgradeState.ERR_UNSUPPORT_DEV: -10>, 'ERR_INVALID_COUNT': <OBUpgradeState.ERR_INVALID_COUNT: -11>}
     def __eq__(self, other: typing.Any) -> bool:
         ...
     def __getstate__(self) -> int:
@@ -3436,6 +3544,65 @@ class Pipeline:
         ...
     def wait_for_frames(self, arg0: int) -> FrameSet:
         ...
+class PlaybackDevice(Device):
+    def __init__(self, file: str) -> None:
+        ...
+    def get_duration(self) -> int:
+        ...
+    def get_playback_status(self) -> PlaybackStatus:
+        ...
+    def get_position(self) -> int:
+        ...
+    def pause(self) -> None:
+        ...
+    def resume(self) -> None:
+        ...
+    def seek(self, timestamp: int) -> None:
+        ...
+    def set_playback_rate(self, rate: float) -> None:
+        ...
+    def set_playback_status_change_callback(self, arg0: typing.Callable) -> None:
+        ...
+class PlaybackStatus:
+    """
+    Members:
+    
+      Stopped
+    
+      Playing
+    
+      Paused
+    """
+    Paused: typing.ClassVar[PlaybackStatus]  # value = <PlaybackStatus.Paused: 2>
+    Playing: typing.ClassVar[PlaybackStatus]  # value = <PlaybackStatus.Playing: 1>
+    Stopped: typing.ClassVar[PlaybackStatus]  # value = <PlaybackStatus.Stopped: 3>
+    __members__: typing.ClassVar[dict[str, PlaybackStatus]]  # value = {'Stopped': <PlaybackStatus.Stopped: 3>, 'Playing': <PlaybackStatus.Playing: 1>, 'Paused': <PlaybackStatus.Paused: 2>}
+    def __eq__(self, other: typing.Any) -> bool:
+        ...
+    def __getstate__(self) -> int:
+        ...
+    def __hash__(self) -> int:
+        ...
+    def __index__(self) -> int:
+        ...
+    def __init__(self, value: int) -> None:
+        ...
+    def __int__(self) -> int:
+        ...
+    def __ne__(self, other: typing.Any) -> bool:
+        ...
+    def __repr__(self) -> str:
+        ...
+    def __setstate__(self, state: int) -> None:
+        ...
+    def __str__(self) -> str:
+        ...
+    @property
+    def name(self) -> str:
+        ...
+    @property
+    def value(self) -> int:
+        ...
 class PointCloudFilter(Filter):
     def __init__(self) -> None:
         ...
@@ -3452,7 +3619,18 @@ class PointCloudFilter(Filter):
     def set_position_data_scaled(self, arg0: float) -> None:
         ...
 class PointsFrame(Frame):
+    def get_height(self) -> int:
+        ...
     def get_position_value_scale(self) -> float:
+        ...
+    def get_width(self) -> int:
+        ...
+class RecordDevice:
+    def __init__(self, device: Device, file: str, compression: bool = True) -> None:
+        ...
+    def pause(self) -> None:
+        ...
+    def resume(self) -> None:
         ...
 class Sensor:
     def __repr__(self) -> str:
@@ -3516,6 +3694,12 @@ class StreamProfile:
     def as_gyro_stream_profile(self) -> ...:
         ...
     def as_video_stream_profile(self) -> ...:
+        ...
+    @typing.overload
+    def bind_extrinsic_to(self, arg0: StreamProfile, arg1: OBExtrinsic) -> None:
+        ...
+    @typing.overload
+    def bind_extrinsic_to(self, arg0: OBStreamType, arg1: OBExtrinsic) -> None:
         ...
     def get_extrinsic_to(self, arg0: StreamProfile) -> OBExtrinsic:
         ...
@@ -3604,6 +3788,8 @@ class VideoStreamProfile(StreamProfile):
         ...
 def get_version() -> str:
     ...
+def save_point_cloud_to_ply(file_name: str, frame: Frame, save_binary: bool = False, use_mesh: bool = False, mesh_threshold: float = 50.0) -> None:
+    ...
 def transformation2dto2d(arg0: OBPoint2f, arg1: float, arg2: OBCameraIntrinsic, arg3: OBCameraDistortion, arg4: OBCameraIntrinsic, arg5: OBCameraDistortion, arg6: OBExtrinsic) -> OBPoint2f:
     ...
 def transformation2dto3d(arg0: OBPoint2f, arg1: float, arg2: OBCameraIntrinsic, arg3: OBExtrinsic) -> OBPoint3f:
@@ -3612,3 +3798,6 @@ def transformation3dto2d(arg0: OBPoint3f, arg1: OBCameraIntrinsic, arg2: OBCamer
     ...
 def transformation3dto3d(arg0: OBPoint3f, arg1: OBExtrinsic) -> OBPoint3f:
     ...
+Paused: PlaybackStatus  # value = <PlaybackStatus.Paused: 2>
+Playing: PlaybackStatus  # value = <PlaybackStatus.Playing: 1>
+Stopped: PlaybackStatus  # value = <PlaybackStatus.Stopped: 3>

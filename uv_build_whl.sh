@@ -12,12 +12,14 @@ log() {
     echo -e "[INFO] ${GREEN}$1${NC} "
 }
 
+# 固定 Python 版本并同步依赖
 PYTHON_VERSION=3.10  # 目标 Python 版本, 3.10 ~ 3.12 测试通过
 
 log "目标 Python 版本: $PYTHON_VERSION"
 log "正在安装依赖..."
 
-# 固定 Python 版本并同步依赖
+rm -rf .venv
+
 uv python pin $PYTHON_VERSION
 uv sync
 
@@ -47,15 +49,22 @@ cd ..  # 回到项目根目录
 
 # 生成 stubs
 log "正在生成 stubs, 有报错请忽略..."
+uv pip install .
 pybind11-stubgen pyorbbecsdk
 cp stubs/pyorbbecsdk.pyi install/lib
+
+# 复制示例和配置文件
+mkdir -p ./install/lib/pyorbbecsdk
+cp -r ./examples ./install/lib/pyorbbecsdk
+cp -r ./config ./install/lib/pyorbbecsdk
+cp ./requirements.txt ./install/lib/pyorbbecsdk/examples
 
 # 删除旧 wheel
 rm -f dist/*.whl
 
 # 生成 wheel 包
 log "正在生成 wheel 包..."
-python3 setup.py bdist_wheel
+python3 setup.py sdist bdist_wheel
 
 # 安装 wheel 包
 log "正在安装 wheel 包到当前环境, 用于测试..."
